@@ -1,0 +1,32 @@
+{
+    "Name": "Breitband Austria 2030: GigaApp",
+    "Themenbereich": "Digitalisierung & Breitband",
+    "Kurzbeschreibung": "Förderung kooperativer Forschungsvorhaben zur Entwicklung von Applikationen.",
+    "Organisation": "Österreichische Forschungsförderungsgesellschaft (FFG)",
+    "Förderbetrag": "Mindestens 100.000 bis maximal 2 Millionen Euro",
+    "Bewerbungsfrist": {
+        "Von": "22.11.2023 00:00",
+        "Bis": "29.04.2024 12:00"
+    },
+    "Regionen": [
+        "Österreich"
+    ],
+    "Zielgruppe": [
+        "Technologieunternehmen",
+        "Netzbetreiber",
+        "Systemintegratoren",
+        "Forschungseinrichtungen",
+        "Gemeinden",
+        "Gemeindeverbände"
+    ],
+    "Webseite": "https://www.ffg.at",
+    "Optional": {
+        "Status": "laufend",
+        "Häufigkeit": "laufend",
+        "Voraussetzungen": "Konsortien aus Technologieunternehmen und Anwendenden",
+        "Fördertyp": "Zuschuss",
+        "Förderdauer": "Bis zu 2 Jahre",
+        "Förderquote": "Industrielle Forschung: max. 80%, Experimentelle Entwicklung: max. 60%",
+        "Mögliche Aktivitäten": "Entwicklung von Applikationen, Installation, Inbetriebnahme, Pilotbetrieb"
+    }
+}

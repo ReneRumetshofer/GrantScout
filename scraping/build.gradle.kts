@@ -26,6 +26,9 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-data-jpa")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
+    implementation("com.itextpdf:itextpdf:5.5.13.4")
+    implementation("org.apache.pdfbox:pdfbox:3.0.4")
+
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation("com.microsoft.playwright:playwright:1.43.0")

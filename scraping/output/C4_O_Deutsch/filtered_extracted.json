@@ -1,0 +1,28 @@
+{
+    "Name": "Beispiel Förderprogramm",
+    "Themenbereich": "Digitalisierung & Breitband",
+    "Kurzbeschreibung": "Ausschreibungszweck, Beschreibung der Ziele, maximal 100 Zeichen, obligatorisch",
+    "Langbeschreibung": "Ausführliche Beschreibung der Ausschreibung, maximal 500 Zeichen",
+    "Organisation": "Beispiel Stiftung oder Institut",
+    "Förderbetrag": "Bis zu 50.000 Euro, Ausnahmen bis 20.000 Euro",
+    "Bewerbungsfrist": {
+        "Von": "unbekannt",
+        "Bis": "unbekannt"
+    },
+    "Regionen": [
+        "Deutschland",
+        "Europa"
+    ],
+    "Zielgruppe": [
+        "Startups",
+        "Non-Profits"
+    ],
+    "Webseite": "https://beispiel.foerderung.de",
+    "Optional": {
+        "Status": "Aktiv",
+        "Häufigkeit": "laufend",
+        "Voraussetzungen": "Mindestalter, Umsatzgrenzen",
+        "Bewertungskriterien": "Innovation, soziale Wirkung",
+        "Fördertyp": "Zuschuss"
+    }
+}
