@@ -1,0 +1,111 @@
+CET Partnership Joint Call 2024
+Ausschreibung offen von	19.09.2024 12:00 
+                            bis 02.04.2025 15:00
+Diese Ausschreibung wird transnational durchgeführt und ist als zweistufige Ausschreibung organisiert. In der ersten Stufe müssen Kurzanträge (pre-proposals) eingereicht werden. Dieser Schritt ist verpflichtend. Sofern die Evaluierung des Kurzantrags erfolgreich ist, wird zur Erstellung eines Vollantrags (full proposal) eingeladen.
+ACHTUNG: Neben dem Antragsverfahren auf transnationaler Ebene ist für österreichische Partner:innen zudem die Beantragung auf nationaler Ebene im eCall der FFG verpflichtend. Der transnationale Kurzantrag muss bis spätestens 21. November 2024, 14:00 Uhr MEZ über das transnationale Einreichsystem eingereicht werden, der zusätzlich erforderliche nationale Kurzantrag bis 26. November 2024, 12:00 Uhr MEZ im eCall. 
+Was wird gefördert?
+Gefördert werden kooperative F&E-Projekte der Industriellen Forschung oder Experimentellen Entwicklung. Die Clean Energy Transition Partnership (CETP) gliedert ihre einzelnen Ausschreibungsschwerpunkte (Call Modules) in sieben Transition Initiatives (TRIs), denen gemeinsame Ziele innewohnen. Österreichische Antragsteller:innen können in dieser Ausschreibung alle zehn Schwerpunkte (Call Modules) aus sämtlichen TRIs adressieren: 
+TRI 1: Integrated Net-zero-emissions Energy System / TRI 5: Integrated Regional Energy Systems
+CM2024-01: Data spaces and interoperability
+ 
+TRI 1: Integrated Net-zero-emissions Energy System / TRI 2: Enhanced zero emission Power Technologies
+CM2024-02: Energy system flexibility: renewables production, storage and system integration
+ 
+TRI 2: Enhanced zero emission Power Technologies
+CM2024-03A/03B: Advanced renewable energy (RE) technologies for power production 
+ 
+TRI 3: Enabling Climate Neutrality with Storage Technologies, Renewable Fuels and CCU/CCS
+CM2024-04: Carbon capture, utilisation and storage (CCUS)
+Achtung! Inhaltliche Einschränkung für österreichische Projektbeteiligungen: Für allfällige Anwendungen in Österreich sind die gesetzlichen Rahmenbedingungen bzgl. Gesamtvolumen für die geologische Speicherung von Kohlenstoffdioxid einzuhalten. Nur auf ein technisches Minimum reduzierte unvermeidbare Restemissionen sind bei CCUS-Projekten durch technische Senken auszugleichen.
+CM2024-05: Hydrogen and renewable fuels
+Achtung! Inhaltliche Einschränkung für österreichische Projektbeteiligungen: Es darf nur klimaneutraler Wasserstoff zur Anwendung kommen, wie in der österreichischen Wasserstoffstrategie definiert. Für österreichische Projektbeteiligungen muss ein Bezug zu Mobilitätsanwendungen (Entwicklung und Nutzung von Wasserstoff und Brennstoffzellen) dargestellt werden. Entsprechend der österreichischen nationalen Wasserstoffstrategie müssen Einreichungen jene Anwendungen im Transportsektor adressieren, bei denen eine Elektrifizierung schwierig zu erreichen ist (z.B. Luftfahrt, schwere Straßen- und Schienen[nutz-]fahrzeuge, Schifffahrt).
+TRI 4: Efficient zero emission Heating and Cooling Solutions
+CM2024-06: Heating and cooling technologies
+CM2024-07: Geothermal energy technologies
+ 
+TRI 5: Integrated Regional Energy Systems
+CM2024-08: Integrated regional energy systems
+In diesem Schwerpunkt besteht für österreichische Antragstellendezusätzlich die Möglichkeit kleinere, vorbereitende Projekte (max. 24 Monate Laufzeit/max. 0,3 Mio. EUR Förderung) einzureichen. Bitte wählen Sie im eCall das Instrument Vorbereitung für CM8, wofür dieselben Kriterien und der Kostenleitfaden wie für kooperative F&E-Projekte gelten (siehe u.a. Downloadcenter). 
+TRI 6: Integrated Industrial Energy Systems
+CM2024-09: Integrated industrial energy systems
+ 
+TRI 7: Integration in the Built Environment
+CM2024-10: Clean energy integration in the built environment 
+ 
+Für die Ausschreibungsschwerpunkte CM2024-01, CM2024-02, CM2024-03 A/B, CM2024-08 und CM2024-10 stehen 3,5 Mio. Euro, für CM2024-04, CM2024-06, CM2024-07 und CM2024-09 5 Mio. Euro und für das CM2023-05 2 Mio. Euro zur Verfügung. 
+Die Mittel für CM2024-01, CM2024-02, CM2024-03 A/B, CM2024-05, CM2024-08 und CM2024-10 werden durch das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie (BMK) zur Verfügung gestellt, jene für die Ausschreibungsschwerpunkte CM2024-04, CM2024-06, CM2024-07 und CM2024-09 durch den Klima- und Energiefonds (KLIEN). Gegebenenfalls steht zusätzlich ein Budget der Europäischen Kommission aus der Europäischen Partnerschaft für erfolgreiche österreichische Antragsteller:innen zur Verfügung. Die Aufteilung dieses Budgets auf die beteiligten Länder wird jedoch erst nach Abschluss des Projektauswahlverfahrens bestimmt.
+Erläuterungen zu den einzelnen TRIs und CMs finden Sie in den verlinkten Websites sowie im transnationalen Calltext. 
+Bitte beachten Sie die im geltenden Instrumentenleitfaden angegebenen (Kooperations-)Anforderungen!
+Die Basis zur Kostenanerkennung der österreichischen Projektpartner:innen bildet der Leitfaden „Kostenanerkennung in FFG-Projekten“ (Kostenleitfaden Version 3.1).
+Wer wird gefördert? 
+Akteurinnen und Akteure aus den folgenden Ländern sind eingeladen ihre Projekte in einem zweistufigen Verfahren einzureichen: 
+Belgien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Griechenland, Island, Indien, Irland, Israel, Italien, Kanada (Provinz Alberta), Lettland, Litauen, Malta, Niederlande, Norwegen, Österreich, Polen, Portugal, Republik Korea, Rumänien, Schweden, Schweiz, Slowenien, Spanien, Tschechische Republik, Tunesien, Türkei, Ungarn, UK (Schottland) sowie die USA. 
+Bitte beachten Sie, dass nicht jedes Land jedes CM fördern kann. Einen Überblick finden Sie auf der transnationalen Ausschreibungswebsite.
+Von österreichischer Seite können in dieser transnationalen Ausschreibung Unternehmen, Einrichtungen für Forschung und Wissensverbreitung, Kommunen und sonstige nicht-wirtschaftliche Einrichtungen gefördert werden.
+Die wirtschaftliche Leistungsfähigkeit wie Bonität und Liquidität von Unternehmen wird durch FFG-interne Expertinnen und Experten geprüft. Unternehmen in Schwierigkeiten erhalten keine Förderung.
+Wie hoch ist die Förderung?
+Je nach Organisationsart und -größe sowie nach beantragter Forschungskategorie beträgt die Förderung zwischen 35 und 85 % der Projektkosten. Nähere Informationen dazu finden Sie in den Instrumentenleitfäden (siehe Downloadcenter). 
+Die maximale Förderung für österreichische Beteiligte in einem kooperativen F&E Projekt liegt bei insgesamt EUR 1.000.000 (EUR 300.000 beim vorbereitenden Projekt in CM 08), die minimale Förderung insgesamt bei EUR 100.000.
+Was sind die Einreichkriterien? 
+Die einzureichenden Projekte müssen die Kooperationsvorgaben und -anforderungen des jeweiligen Instrumentenleitfadens (siehe Downloadcenter) sowie der transnationalen Ausschreibung erfüllen. Unter anderen umfassen die nationalen Kriterien die folgenden Bedingungen:
+In kooperativen F&E-Projekten muss im transnationalen Konsortium zumindest ein gefördertes Unternehmen vertreten sein. 
+Alle österreichischen Partner:innen eines Projekts müssen die gleiche Forschungskategorie (Industrielle Forschung oder Experimentelle Entwicklung) im Antrag wählen.
+Die Projektlaufzeit darf maximal 36 Monate betragen.
+Die maximale Förderung für österreichische Beteiligte in einem kooperativen F&E Projekt liegt bei insgesamt EUR 1.000.000 (EUR 300.000 beim vorbereitenden Projekt in CM 08), die minimale Förderung insgesamt bei EUR 100.000.
+Was brauche ich für eine Einreichung?
+Neben der transnationalen Einreichung über das transnationale Einreichsystem ist zudem eine nationale Einreichung notwendig. 
+In der ersten Stufe benötigen Sie für die nationale Einreichung:
+Online-Formular (grober Kostenplan, Eingabe der Titel der Arbeitspakete (Details, Milestones oder Deliverables müssen nicht angegeben werden), kurze Beschreibung Ihrer Rolle im Projekt, österreichische Projektpartner:innen, etc.) im eCall,
+das pre-proposal, so wie es auch transnational eingereicht wurde, als verpflichtenden Anhang.
+Der transnationale Antrag muss bis spätestens 21. November 2024, 14:00 Uhr MEZ über das transnationale Einreichsystem eingereicht werden, der zusätzlich erforderliche nationale Antrag bis 26. November 2024, 12:00 Uhr MEZ im eCall.
+In der zweiten Stufe benötigten Sie für die nationale Einreichung:
+Online-Formular (detaillierter Arbeitsplan, detaillierter Kostenplan, österreichische Projektpartner:innen, etc.) im eCall,
+das full proposal, so wie es auch transnational eingereicht wurde, als verpflichtenden Anhang
+Der transnationale Antrag muss bis spätestens 2. April 2025, 14:00 Uhr MEZ über das transnationale Einreichsystem eingereicht werden, der zusätzlich erforderliche nationale Antrag bis 2. April 2025, 15:00 Uhr MEZ im eCall.
+Wann gibt es eine Entscheidung?
+Die Evaluierungsergebnisse der ersten Stufe werden im Jänner 2025 vorliegen, die der zweiten Stufe im Juni 2025. Mit der Förderentscheidung ist im Juli/August 2025 zu rechnen. Projekte sollen zwischen 1. September und 15. Dezember 2025 starten.
+Wer trifft die Förderungsentscheidung und was ist die Rechtsgrundlage?
+Für die Ausschreibungsschwerpunkte CM2024-01, CM2024-02, CM2024-03 A/B, CM2024-05, CM2024-08 und CM2024-10 trifft die Geschäftsführung der FFG die nationale Förderungsentscheidung auf Basis der Förderungsempfehlung des transnationalen Bewertungsgremiums. Für die Ausschreibungsschwerpunkte CM2024-04, CM2024-06, CM2024-07 und CM2024-09 trifft das Präsidium des Klima- und Energiefonds die nationale Förderungsentscheidung auf Basis der Förderungsempfehlung des transnationalen Bewertungsgremiums.
+Die Ausschreibung basiert auf der Richtlinie für die Österreichische Forschungsförderungsgesellschaft mbH zur Förderung von Forschung, Technologie, Entwicklung und Innovation zur Bewältigung gesellschaftlicher Herausforderungen (FFG-Challenge-Richtlinie).
+Weitere Informationen
+Weiterführende Informationen finden Sie auf der transnationalen Partnership-Website sowie auf der transnationalen Ausschreibungswebsite.
+Neben zahlreichen transnationalen Informationsveranstaltungen möchten wir auf die transnationale Unterstützung bei der Projektpartner:innensuche hinweisen.
+Zusätzlich zur jederzeit möglichen telefonischen, persönlichen oder Online-Beratung bietet die FFG eine nationale Informationsveranstaltung am 03.10.2024 an.
+Die FFG
+Über die FFG
+MitarbeiterInnen
+Zahlen, Daten, Fakten
+Kontakt und Anreise
+Services & Dienstleistungen
+Gutachten Forschungsprämie
+QuickCheck
+Jobbörse für Forschung
+Praktika für Jugendliche
+Beratung zu EU-Förderungen
+ 
+Partnersuche Europa
+Schulung und Training
+Rechtliche Services
+Technologietransfer
+Digitale Barrierefreiheit
+ 
+Innovationsfördernde öffentl. Beschaffung
+EU-Performance Monitoring
+Euraxess
+Förderungen
+Nationale Förderprogramme
+ 
+EU-Förderungen und Internationales 
+ Förderrichtlinien
+Informationen
+News
+Offene Ausschreibungen
+Veranstaltungen
+Publikationen und Berichte
+ 
+FFG auf Facebook
+Abkürzungsverzeichnis
+Glossar
+
+Die Österreichische Forschungsförderungsgesellschaft FFG steht im Eigentum der Republik Österreich. Eigentümervertreter sind das Bundesministerium für Arbeit und Wirtschaft und das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie.
+Copyright © 2005 - 2022 FFG - Die Österreichische Forschungsförderungsgesellschaft. All rights reserved. Worldwide.

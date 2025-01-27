@@ -1,0 +1,772 @@
+EINREICHFRIST: 27.03.2025
+DATUM: WIEN, 21. NOVEMBER 2024
+–
+VIRTUELLE WELTEN UND DIGITALE
+LÖSUNGEN FÜR DIE GESUNDHEIT
+AUSSCHREIBUNGSLEITFADEN
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 2/22
+INHALTSVERZEICHNIS
+TABELLENVERZEICHNIS...............................................................4
+1 DAS WICHTIGSTE IN KÜRZE .................................................5
+2 ZIELE DER AUSSCHREIBUNG.................................................7
+3 AUSSCHREIBUNGSSCHWERPUNKTE .....................................9
+3.1 Virtuelle und hybride Welten..........................................................9
+3.1.1 Motivation und Hintergrund .......................................................9
+3.1.2 Anforderungen des Schwerpunkts............................................. 10
+3.1.2.1 Schnittstellentechnologie................................................... 10
+3.1.2.2 Mensch-Maschine-Interaktion ........................................... 11
+3.1.2.3 Sicherheit .......................................................................... 11
+3.1.2.4 Datennutzung.................................................................... 11
+3.1.2.5 Beispiele für Projektinhalte................................................ 12
+3.1.3 Vorgaben für kooperative F&E-Projekte .................................... 12
+3.1.3.1 Technologiesouveränität ................................................... 12
+3.1.3.2 Berücksichtigung von Regularien, Rahmenbedingungen und
+Normen ............................................................................. 13
+3.1.3.3 Interdisziplinarität............................................................. 13
+3.1.4 Vorgaben für Qualifizierungsnetzwerke .................................... 13
+3.2 Evidenzbasierte digitale Lösungen für die Gesundheit..................... 13
+3.2.1 Motivation und Hintergrund ..................................................... 14
+3.2.2 Anforderungen des Schwerpunkts............................................. 14
+3.2.3 Vorgaben für kooperative F&E-Projekte .................................... 15
+3.2.3.1 Einbeziehung von Endanwender:innen............................... 15
+3.2.3.2 Benutzer:innenschnittstellen.............................................. 15
+3.2.3.3 Ethische Aspekte................................................................ 15
+3.2.3.4 Zugänglichkeit................................................................... 16
+3.2.3.5 Ökosysteme....................................................................... 16
+3.2.4 Vorgaben für Qualifizierungsnetzwerke .................................... 16
+4 Weitere Ausschreibungsvorgaben ..................................... 17
+4.1 Vorgaben zu Kosten und Personal ................................................. 17
+4.2 Datenmanagementplan ................................................................ 17
+5 AUSSCHREIBUNGSDOKUMENTE......................................... 19
+6 Förderungsentscheidung und Rechtsgrundlagen ................ 20
+7 WEITERE INFORMATIONEN ............................................... 20
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 3/22
+7.1 Service FFG Projektdatenbank....................................................... 20
+7.2 Service BMK Open4Innovation...................................................... 21
+7.3 Open Access Publikationen ........................................................... 21
+7.4 Weitere Förderungsmöglichkeiten der FFG..................................... 21
+8 ANHANG: CHECKLISTE FÜR DIE ANTRAGSEINREICHUNG ..... 21
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 4/22
+TABELLENVERZEICHNIS
+Tabelle 1: Übersicht über die verfügbaren Instrumente.............................................5
+Tabelle 2: Übersicht über die Ausschreibungsschwerpunkte und
+Einreichmöglichkeiten ..............................................................................5
+Tabelle 3: Budget – Fristen – Kontakt ........................................................................6
+Tabelle 4 Strategische Ziele der Schwerpunkte und Instrumente...............................8
+Tabelle 5: Ausschreibungsschwerpunkte ...................................................................9
+Tabelle 6: Ausschreibungsdokumente – Förderung..................................................19
+Tabelle 7: Formalprüfungscheckliste für Förderungsansuchen.................................22
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 5/22
+1 DAS WICHTIGSTE IN KÜRZE
+_
+Für die Ausschreibung stehen 8.715.983 EUR zur Verfügung.
+Tabelle 1: Übersicht über die verfügbaren Instrumente
+Förderungsinstrument
+Kurzbeschreibung
+maximale
+Förderung in
+€
+Förderungsquote
+Laufzeit
+in
+Monaten
+Kooperationserfordernis
+Kooperatives
+F&E Projekt
+Kooperatives F&E
+Projekt
+Industrielle
+Forschung und
+experimentelle
+Entwicklung
+mindestens
+100.000
+bis max. 2
+Mio.
+max. 85% max. 36 ja
+Qualifizierungsnetzwerke
+Wissenstransfer
+zwischen
+wissenschaftlichen
+Einrichtungen und
+Unternehmen
+max.
+200.000 max. 100%
+mind. 6-
+max. 24 ja
+Dissertationen
+Dissertation mit
+einer passenden
+Forschungsfrage
+max.
+110.000
+max. 50% max. 36 nein
+Tabelle 2: Übersicht über die Ausschreibungsschwerpunkte und Einreichmöglichkeiten
+Förderungs-/
+Finanzierungsinstrument
+Schwerpunkt 1 Schwerpunkt 2
+Kooperatives
+F&E Projekt anwendbar anwendbar
+Qualifizierungsnetzwerke anwendbar anwendbar
+Dissertationen siehe Ausschreibungsleitfaden der industrienahen Dissertationen
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 6/22
+Tabelle 3: Budget – Fristen – Kontakt
+Weitere Information Nähere Angabe(n)
+Budget gesamt 8.715.983 €
+Einreichfrist 1 27.03.2025
+Einreichfrist 2
+(für Dissertationen) Laufende Einreichung (vorbehaltlich Budgetverfügbarkeit)
+Sprache
+Schwerpunkt Virtuelle und hybride Welten:
+− Kooperative F&E Projekte: Englisch
+− Qualifizierungsnetzwerke: Deutsch
+Schwerpunkt evidenzbasierte digitale Lösungen für die Gesundheit:
+− Kooperative F&E Projekte: Deutsch
+− Qualifizierungsnetzwerke: Deutsch
+Ansprechpersonen
+Für inhaltliche Fragen zum Schwerpunkt 1 und Fragen zum Instrument
+Kooperative F&E-Projekte
+Peter Kerschl, T (0) 57755-5022; E peter.kerschl@ffg.at
+Verena Mussnig, T (0) 57755-5135; E verena.mussnig@ffg.at
+Für inhaltliche Fragen zum Schwerpunkt 2 und Fragen zum Instrument
+Kooperative F&E-Projekte
+Gerda Geyer, T (0) 57755-4205; E gerda.geyer@ffg.at
+Julia Neuschmid, T (0) 57755-5143; E julia.neuschmid@ffg.at
+Für Fragen zum Instrument Qualifizierungsnetzwerke:
+Sonja Gossar, T (0) 57755-2312; E sonja.gossar@ffg.at
+Teresa Pflügl, T (0) 57755-2303; E teresa.pfluegl@ffg.at
+Renata Egger, T (0) 57755-2315; E renata.egger@ffg.at
+Für Fragen zum Kostenplan:
+Alexander Glechner, T (0) 57755-6082; E alexander.glechner@ffg.at
+Erwin Eckhart, T (0) 57755-6095; E erwin.eckhart@ffg.at
+Information im Web http://www.ffg.at/virtuelle-Welten-Gesundheit-2024
+Zum Einreichportal https://ecall.ffg.at
+Diversität in der Teamzusammensetzung
+Divers aufgestellte Teams können aufgrund der Vielfalt und unterschiedlicher
+Perspektiven innovativer und produktiver sein. Eine Teamzusammensetzung, die
+Gender- und Diversitätsdimensionen berücksichtigt, kann für eine höhere Qualität
+der Projekte sowie der daraus entstehenden Forschungsergebnisse, Produkte und
+Dienstleistungen sorgen. Die Auswirkungen der Projektergebnisse auf Menschen
+werden dadurch mitgedacht, z.B. durch die Berücksichtigung verschiedener
+Bedürfnisse in der Nutzung oder Herstellung von Produkten. Unterschiedliche
+Blickwinkel, Erfahrungen, Weltanschauungen und Fähigkeiten können dazu
+beitragen, überzeugende Lösungen für Gesellschaft und Wirtschaft zu entwickeln.
+Die FFG unterstützt Sie dabei mit Förderungen! Informationen dazu finden Sie auf
+der Website: https://www.ffg.at/gleichstellung#Foerdermoeglichkeiten_Vielfalt
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 7/22
+2 ZIELE DER AUSSCHREIBUNG
+_
+Die vorliegende Ausschreibung ist im Themenbereich „Digitale und
+Schlüsseltechnologien“ eingebettet. In der FTI-Strategie 2030 wurde eine
+Technologieoffensive für angewandte Forschung und Technologieentwicklung
+verankert. Ziel ist es, die Forschung und Entwicklung von Schlüsseltechnologien im
+Digitalisierungsbereich zu stärken und insbesondere zur Entwicklung von neuen
+digitalen Produkten und Dienstleistungen beizutragen.
+Mit der vorliegenden Ausschreibung möchte das Bundesministerium für Klimaschutz,
+Umwelt, Energie, Mobilität, Innovation und Technologie (BMK) einen umfassenden
+Beitrag zur Forschung und Entwicklung von Digitalen Technologien leisten und zwei
+Forschungsfelder adressieren: Die Entwicklung von Spitzentechnologien im Bereich
+digitaler Technologien sowie die bedarfsorientierte Weiterentwicklung von digitalen
+Lösungen.
+Im Schwerpunkt „Virtuelle Welten“ soll die technologiegetriebene Entwicklung
+digitaler Technologien, die eine Verbindung zwischen digitalen und realen Objekten
+und Umgebungen ermöglichen, vorangetrieben werden. Der Schwerpunkt
+„Evidenzbasierte Digitale Lösungen für die Gesundheit“ umfasst die
+bedarfsorientierte Entwicklung digitaler Lösungen zur Behandlung und Prävention
+bestimmter Krankheitsbilder.
+In beiden Schwerpunkten werden kooperative F&E-Projekte und
+Qualifizierungsnetzwerke gefördert. Damit soll ein Beitrag zu mehreren
+strategischen Ausschreibungszielen der Finanzierungsvereinbarung 2024-26
+ermöglicht werden.
+Folgende strategische Ausschreibungsziele werden durch die Ausschreibung
+adressiert:
+− Technologiesouveränität und technologieoffene Lösungsentwicklung
+Digitale und Schlüsseltechnologien sollen zur Unterstützung des Aufbaus und
+der Stärkung von europäischen Wertschöpfungsnetzwerken weiterentwickelt
+werden. Dabei sollen Spitzentechnologien vorangetrieben und bestehende
+Stärkefelder ausgeweitet werden.
+− Technologieakzeptanz schaffen und Ökosysteme weiterentwickeln
+Für die Anwendung von Digitalen und Schlüsseltechnologien soll Akzeptanz
+geschaffen und der Aufbau und die Weiterentwicklung von flexiblen und
+kooperativ-kreativen Ökosystemen vorangetrieben werden. Diese sollen die
+Zusammenarbeit verschiedener Akteur:innen unterstützen und damit die
+Entwicklung und Nutzung von Digitalen und Schlüsseltechnologien
+unterstützen.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 8/22
+− Bewältigung gesellschaftlicher Herausforderungen
+Durch Förderung von Digitalen und Schlüsseltechnologien sollen Beiträge zur
+Bewältigung von gesellschaftlichen Herausforderungen wie dem
+Klimawandel und dem demographischen Wandel geleistet sowie die
+Demokratie und die gesellschaftliche Resilienz gestärkt werden. In der
+vorliegenden Ausschreibung liegt der Fokus auf digitalen Technologien zur
+Bewältigung von Herausforderungen im Gesundheitsbereich.
+− Kompetenz- und Kapazitätsaufbau
+Im Themenfeld Digitale und Schlüsseltechnologien sollen Kompetenzen und
+Kapazitäten aufgebaut, der Nachwuchs gefördert und Diversität inkl.
+Gleichstellung der Geschlechter vorangetrieben werden. Daraus resultiert
+ein multiperspektivischer Blick auf das Projekt und die daraus entstehenden
+Produkte.
+Die verschiedenen Schwerpunkte und Instrumente tragen zu unterschiedlichen
+Zielen der Ausschreibung bei. Die Zuordnung zu den strategischen Zielen ist in der
+nachfolgenden Tabelle dargestellt.
+Tabelle 4 Strategische Ziele der Schwerpunkte und Instrumente
+Ausschreibungsschwerpunkte Kooperative F&E-Projekte Qualifizierungsnetzwerke
+Virtuelle und hybride Welten − Technologiesouveränität
+und technologieoffene
+Lösungsentwicklung
+− Technologieakzeptanz
+schaffen und
+Ökosysteme
+weiterentwickeln
+− Kompetenz- und
+Kapazitätsaufbau
+Evidenzbasierte digitale
+Lösungen für die Gesundheit
+− Technologieakzeptanz
+schaffen und
+Ökosysteme
+weiterentwickeln
+− Bewältigung
+gesellschaftlicher
+Herausforderungen
+− Kompetenz- und
+Kapazitätsaufbau
+Die konkrete Ausgestaltung der Ziele ist den jeweiligen Ausschreibungsschwerpunkten formuliert.
+Es ist möglich sowohl eine Qualifizierungsmaßnahme als auch ein thematisch
+verbundenes F&E-Projekt in dieser Ausschreibung einzureichen. Die beiden
+Einreichungen werden einzeln und unabhängig voneinander bewertet.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 9/22
+3 AUSSCHREIBUNGSSCHWERPUNKTE
+_
+Das Vorhaben muss sich prioritär auf einen der in Folge beschriebenen
+Ausschreibungsschwerpunkte bzw. darunterliegende Forschungsthemen beziehen.
+Die inhaltliche Passung von Anträgen zum Ausschreibungsschwerpunkt wird durch
+die Fachjury beurteilt.
+Tabelle 5: Ausschreibungsschwerpunkte
+Ausschreibungsschwerpunkte Kooperative F&E-Projekte Qualifizierungsnetzwerke
+Virtuelle und hybride Welten max. 5.185.983 EUR max. 1 Mio. EUR
+Evidenzbasierte digitale
+Lösungen für die Gesundheit
+max. 2 Mio. EUR max. 0,53 Mio. EUR
+3.1 Virtuelle und hybride Welten
+Ausgeschriebene Instrumente (vgl. Tabelle 1):
+− Kooperative F&E-Projekte Industrielle Forschung oder Experimentelle
+Entwicklung (max. Förderung 1 Mio. EUR)
+− Qualifizierungsnetzwerke
+3.1.1 Motivation und Hintergrund
+Virtuelle und hybride Welten gewinnen an Bedeutung und eröffnen zahlreiche neue
+Möglichkeiten in unterschiedlichen Bereichen wie beispielsweise Bildung, Green
+Transition, Kunst und Design, Unterhaltung, Gesundheit und Industrie. Diese
+Bedeutung wird auch begünstigt durch technologische Entwicklungen im Bereich
+Audio- und Displaytechnologien, KI, low-latency connectivity sowie durch die
+Konvergenz verschiedener Technologien. Virtuelle und hybride Welten werden die
+Art und Weise, wie Menschen agieren, leben, arbeiten und sich organisieren
+maßgeblich verändern. Auch kann eine neue Art des Umgangs mit digitalen
+Technologien entstehen, die stärker von der menschlichen Intuition ausgeht als von
+(bisherigen) technischen Vorgaben. Dieser Wandel birgt wie jede wirksame
+Technologie auch Gefahren und muss daher gesteuert werden – v.a. hinsichtlich
+eines offenen, sicheren, vertrauenswürdigen, fairen und inklusiven Umfelds für
+Bürger:innen, Unternehmen und Forschung.
+Nur wenn Bürger:innen in Europa auch auf technologischer Ebene mitgestalten,
+können europäische Werte in virtuellen und hybriden Welten umgesetzt werden.
+Dazu wurde die europäische Strategie „EU-Initiative zu Web 4.0 und virtuellen
+Welten“ formuliert: Die neue europäische Strategie zielt auf ein Web 4.0 sowie
+virtuelle und hybride Welten ab, welche die Werte und Grundsätze der EU
+widerspiegeln, in denen die Rechte der Menschen uneingeschränkt gelten und in
+denen europäische Unternehmen wettbewerbsfähig bleiben.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 10/22
+Auf europäischer und internationale Ebene gibt es bereits Entwicklungen, welche die
+aktuelle Definition von virtuellen Welten und Web 4.0 vorgeben, die auch für die
+vorliegende Ausschreibung die Grundlage bilden. Das sind etwa das European
+Citizens’ Panel on Virtual Worlds und die genannte EU-Initiative zu Web 4.0 und
+virtuellen Welten, sowie die Expert:innengruppe Immersive Technologien des Global
+Forum on Technology.
+Um die zukünftigen Möglichkeiten im Sinne der europäischen Wertvorstellungen
+auszugestalten, sind auch die österreichischen Unternehmen, Universitäten und
+Forschungseinrichtungen gefordert, technische Grundlagen für die späteren
+Anwendungen vorzubereiten. Diese frühzeitige Beschäftigung mit den virtuellen und
+hybriden Welten ist notwendig, um die technologische Entwicklung auf europäischer
+Ebene und weltweit mitzugestalten. Daher plant das BMK zukunftsweisende
+Projekte in diesem Schwerpunkt zu fördern.
+3.1.2 Anforderungen des Schwerpunkts
+Im Schwerpunkt „Virtuelle und hybride Welten“ soll die Verbindung zwischen
+digitalen und realen Objekten und Umgebungen ermöglicht werden. Zu den
+„virtuellen und hybriden Welten“ zählen persistente, immersive Umgebungen
+basierend auf XR (Virtual-, Mixed- oder Augmented Reality) sowie digitale
+Abbildungen von realen Prozessen, Produkten oder Services wie in Digitalen
+Zwillingen. Ein wesentlicher Aspekt für die Passung zu diesem Schwerpunkt ist die
+Verbindung oder gar Verschmelzung zwischen realer und digitaler Welt sowie ihrer
+Objekte.
+Je nach Projektinhalt muss auch der menschliche Beitrag zur Problemlösung
+berücksichtigt werden, da ein rein technischer Ansatz nicht ausreichend wäre. Daher
+sind - falls relevant - im Inhalt der Projekte auch Diversitätsaspekte (inklusive
+Gender) zu berücksichtigen, um Menschen in ihrer Vielfalt zu erfassen. Diese
+inhaltliche Anforderung kann durch ein diverses Team noch unterstützt werden.
+In den Anträgen für kooperative F&E-Projekte sind auch die Technologiesouveränität
+und entsprechende Ökosysteme zu beachten (näheres siehe Kapitel 3.1.3).
+Anforderungen an die technische Lösung sind die Gewährleistung der Schnittstellen,
+der Mensch-Maschine-Interaktion, der Sicherheit und die Nutzung von Daten.
+Jedes Projekt muss mindestens eine dieser nachfolgend näher beschriebenen
+Anforderungen innerhalb des Schwerpunktthemas „Virtuelle und hybride Welten“
+adressieren.
+3.1.2.1 Schnittstellentechnologie
+Wesentlich sind die Schnittstellen zwischen physischer und virtueller Welt aber auch
+jene zwischen verschiedenen virtuellen oder hybriden Welten oder Objekten. Diese
+sollen die Interoperabilität gewährleisten. Insbesondere die Kommunikation
+zwischen realen und digitalen Objekten ist für immersive Erfahrungen wesentlich.
+Entsprechende Schnittstellen sind auch für das Web 4.0 erforderlich. Technologien
+müssen ein gutes Zusammenspiel ermöglichen und entsprechende Schnittstellen
+bereitstellen. Neue Technologien sollen Verbesserungen des
+Informationsdurchsatzes und der Interaktion gewährleisten.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 11/22
+3.1.2.2 Mensch-Maschine-Interaktion
+Neue Technologien sollen Interaktion zwischen Mensch und Maschine
+gewährleisten, um ein immersives Erleben der digitalen Umgebung zu ermöglichen.
+Für die Mensch-Maschine-Interaktion sind Beiträge zur angewandten
+Kognitionswissenschaft erforderlich, z.B. zur Messung, Modellierung und
+Berücksichtigung von Nutzer:innen-Aufmerksamkeit in den Benutzer:innensystemen
+(„attention-aware computing“). Fortgeschrittene Interaktionstechnologien bis zu
+Schnittstellen zwischen Gehirn und Computer sind in dieser Ausschreibung
+einreichbar.
+Ein rein technischer Ansatz ist bei der Mensch-Maschine-Interaktion nicht
+ausreichend, da hier der menschliche Beitrag zur Problemlösung unzureichend
+berücksichtigt würde. Daher sind im Inhalt der Projekte jedenfalls auch
+Diversitätsaspekte wie im Kapitel 3.1.2 angeführt zu berücksichtigen.
+3.1.2.3 Sicherheit
+Der deutsche Begriff „Sicherheit“ subsummiert zwei im Englischen getrennte, aber
+miteinander wechselwirkende Konzepte. Auf der einen Seite steht dabei die Idee der
+Safety, die den Einfluss eines Objekts auf seine Umwelt betrachtet. Auf der anderen
+Seite steht die Security, die sich mit dem Einfluss der Umgebung und
+Anwender:innen auf ein Objekt beschäftigt. Beide Aspekte müssen bei einem System
+berücksichtigt werden, um das Vertrauen der Anwender:innen rechtfertigen zu
+können.
+Die konkreten Forschungsbereiche haben verschiedene Ausprägungen:
+− Integrierte Entwurfs- und Entwicklungsprozesse, die Probleme der Security und
+Safety sowie deren Wechselwirkungen gleichermaßen bereits beim
+Systementwurf berücksichtigen. Hier soll auf die Herausforderung des
+eingebauten Datenschutzes („Privacy by Design“) hingewiesen werden.
+− Breite und universell akzeptierte Lösungen auf dem Gebiet der
+benutzer:innenzentrierten Security
+− Die Vernetzung von Systemen auf allen Ebenen – sowohl im Großen (Cloud
+Computing) als auch im Kleinen (Elemente des Internet of Things) – erfordert
+sichere Systeme. Skalierbare Ansätze zur Absicherung dieser Systeme vor
+Missbrauch auf unterschiedlichsten Schichten sowie der Hardware selbst, sind
+dafür notwendig.
+3.1.2.4 Datennutzung
+Im Vordergrund steht die Verknüpfung und Nutzbarmachung der vorhandenen und
+neu hinzukommenden Daten.
+In Aktivitäten zur Datenanalyse und -integration wird die Verarbeitung und Analyse
+von Daten in beliebiger Form (z.B. Bilder, Videos, Tondokumente, menschliche
+Sprache) behandelt. Herausforderungen sind auch Aggregation bzw. Fusion von
+multimodalen bzw. heterogenen Daten sowie neue, effiziente und skalierbare
+Methoden zum Umgang mit Echtzeit-Datenströmen und Datenkomplexität. Ebenfalls
+ergeben sich Herausforderungen bei Datenextraktion und Datenaufbewahrung.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 12/22
+Für kooperative F&E-Projekte wird empfohlen, die Anbindung an bestehende Data
+Spaces zu ermöglichen oder die Einrichtung neuer Data Spaces einzuplanen
+(vergleiche auch Kapitel 4.2 zum Datenmanagementplan). Zusätzlich ist für
+kooperative F&E-Projekte im Sinne der Technologiesouveränität (vgl. Kapitel 3.1.3)
+auf die für das Projekt oder die spätere wirtschaftliche Verwertung erforderliche
+Datensouveränität zu achten.
+3.1.2.5 Beispiele für Projektinhalte
+Mögliche Projektinhalte können sich beispielhaft folgenden Herausforderungen
+stellen:
+− Tieferes Eintauchen in eine virtuelle Realität, größere Immersivität (z.B. HumanComputer-Interaction & Technology Experience)
+− Technologien für digitale Abbildung von realen Prozessen, Produkten oder
+Services (die Verbindung zwischen digitalen und realen Objekten und
+Umgebungen ermöglichen; z.B. für den Klimazwilling)
+− Verschmelzung von physischer und virtueller Welt (z.B. digitale Identität,
+Eigentum in der digitalen Welt, Umgang mit dem Data-Act, Interaktion zwischen
+virtueller Welt mit der realen Welt, Technologien für die Szenariosimulationen
+von Blaulichtorganisationen)
+− Reduktion des Energieverbrauchs virtueller und hybrider Welten
+− Kombination verschiedener Technologien (z.B. photonische Systeme)
+3.1.3 Vorgaben für kooperative F&E-Projekte
+In kooperativen F&E-Projekten sollen digitale Technologien neu- oder
+weiterentwickelt werden. Dabei gelten die Anforderungen des Schwerpunkts, die im
+Kapitel 3.1.2 angeführt sind.
+Die Unterscheidung zwischen Neu- und Weiterentwicklung drückt sich durch die
+Wahl einer der beiden Forschungskategorien „Industrielle Forschung“ für die
+Neuentwicklung und „Experimentelle Entwicklung“ für die Weiterentwicklung aus.
+Weitere Informationen über die Forschungskategorien finden Sie im
+Instrumentenleitfaden für kooperative F&E-Projekte.
+Sowohl Software- als auch Hardware-Projekte sind erwünscht.
+3.1.3.1 Technologiesouveränität
+Die Forschung und Entwicklung an digitalen Technologien muss im Kontext der
+europäischen Technologiesouveränität gesehen werden. Daher müssen einerseits
+europäische Entwicklungen beachtet werden und sofern inhaltlich passend,
+aufgegriffen werden. So können Technologien für Virtuelle Welten zur europäischen
+Technologiesouveränität beitragen, indem sie neue Anwendungsfelder und neue
+Anwendungen ermöglichen. Andererseits sind externe Abhängigkeiten des Projekts
+je nach Art der Abhängigkeit in der Risikoanalyse oder in der Beschreibung der
+Verwertung anzuführen. Als Beispiel für Abhängigkeiten kann die Abhängigkeit von
+verfügbaren Daten oder von Komponenten (z.B. virtuelle Brille, Software) genannt
+werden.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 13/22
+3.1.3.2 Berücksichtigung von Regularien, Rahmenbedingungen und Normen
+Für die eingereichten Projekte ist es erforderlich zu überprüfen, ob bzw. welche
+nationalen und internationalen Regularien, gesetzlichen Rahmenbedingungen und
+Normen für das Projekt relevant sind und diese gegebenenfalls zu adressieren. Dies
+ist im Antrag entsprechend darzustellen. Falls diese für den Anwendungsfall relevant
+sind, bedarf es einer engen und frühzeitigen Zusammenarbeit von entsprechenden
+Akteur:innen, welche im Arbeitsplan sowie im Kostenplan zu berücksichtigen ist.
+Zur Schaffung von Technologieakzeptanz können die F&E-Projekte beitragen, indem
+sie die Einhaltung europäischer Werte und Grundsätze ermöglichen.
+3.1.3.3 Interdisziplinarität
+Die eingereichten Projekte sollen einen Beitrag zum Aufbau bzw. der
+Weiterentwicklung von Ökosystemen leisten, in denen vielfältige Akteur:innen
+zusammenarbeiten. Bei der Zusammensetzung des Projektkonsortiums ist daher
+darauf zu achten, dass die erforderlichen Partner:innen mit diversem fachlichen
+Hintergrund vertreten sind.
+Das methodische Zusammenarbeiten verschiedener Disziplinen muss im Antrag klar
+und bewertbar dargelegt werden und ist insbesondere im Arbeitsplan angemessen
+zu berücksichtigen.
+Die Einreichsprache für kooperative F&E-Projekte ist Englisch.
+Beachten Sie die weiteren Ausschreibungsvorgaben im Kapitel 4.
+3.1.4 Vorgaben für Qualifizierungsnetzwerke
+Die maßgeschneiderten, anwendungs- und umsetzungsorientierten
+Qualifizierungsnetzwerke zielen darauf ab, den Aufbau von qualifiziertem
+Fachpersonal für den Ausschreibungsschwerpunkt „Virtuelle und hybride Welten“
+voranzutreiben. Die Schulungsmaßnahme soll den Teilnehmenden in Ergänzung zu
+ihrem bisherigen Wissen ein oder mehrere zusätzliche Wissensgebiete erschließen.
+Dabei sollen die digitalen Themenfelder dieser Ausschreibung adressiert werden.
+Dabei gelten sämtliche Anforderungen des Schwerpunkts, die im Kapitel 3.1.2
+angeführt sind.
+Die Einreichsprache für Qualifizierungsnetzwerke ist Deutsch.
+Bitte beachten Sie die Informationen und Anforderungen an
+Qualifizierungsnetzwerke im Instrumentenleitfaden.
+3.2 Evidenzbasierte digitale Lösungen für die Gesundheit
+Datengestützter Ansatz mit hohem Nutzen für die Endanwender:innen
+Ausgeschriebene Instrumente (Vgl. Tabelle 1):
+− Kooperative Projekte Experimentelle Entwicklung (max. Förderung 2 Mio. EUR)
+− Qualifizierungsnetzwerke
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 14/22
+3.2.1 Motivation und Hintergrund
+Digitale Lösungen können einen Beitrag leisten, um die Gesundheit von Menschen zu
+erhalten, zu unterstützen und wiederherzustellen. Die eHealth Strategie Österreich
+hebt zum Beispiel die Nutzung von Datenbeständen für die medizinische Prävention
+als wichtigen Einsatzbereich hervor. Auch die europäische kofinanzierte
+Partnerschaft Transforming Health and Care Systems sieht die Digitalisierung als
+einen essenziellen Baustein für die Transformation der europäischen Gesundheitsund Pflegesysteme, siehe Strategic Research Agenda. Schließlich ermöglicht die im
+Jahr 2024 beschlossene Verordnung zur Schaffung eines Europäischen
+Gesundheitsdatenraumes (European Health Data Space, EHDS) neue Ansätze für die
+digitale Unterstützung des öffentlichen Gesundheitswesens und zielt darauf ab, den
+Zugang von Patient:innen sowie Gesundheitsdiensteanbieter:innen zu relevanten
+Gesundheitsdaten (grenzüberschreitend) im Sinne der medizinischen Versorgung zu
+verbessern.
+Digitale Lösungen unterliegen in dem stark regulierten Gesundheits- und
+Pflegesektor besonderen Anforderungen für eine Übernahme in den Regelbetrieb
+und eine entsprechende Finanzierung.
+3.2.2 Anforderungen des Schwerpunkts
+In dem Schwerpunkt „Evidenzbasierte digitale Lösungen für die Gesundheit“ sollen
+digitale Lösungen für bestimmte Krankheitsbilder und/oder zur Prävention
+(weiter)entwickelt werden. Basierend auf bestehenden Bedarfslagen sollen
+relevante Use Cases definiert werden, die gezielte Interventionen beinhalten und
+durch die digitale Lösung gestützt werden.
+Die digitalen Lösungen sollen in einem datengestützten Ansatz in interdisziplinärer
+Herangehensweise umgesetzt werden. Die im Projekt adressierten interdisziplinären
+Aspekte können auch ökonomische, rechtliche, psychologische, soziologische,
+kulturelle und andere Fragestellungen einschließen. Die entwickelten Lösungen
+sollen zu einer Stärkung der Patient:innensouveränität sowie zur Ermächtigung
+(Empowerment) beitragen.
+Idealerweise werden die interdisziplinären Interventionen so gewählt, dass sie einen
+Bezug zu bzw. eine Verschränkung mit bestehenden Datenquellen – etwa
+Registerdaten oder Datenbestände von Krankenanstalten, der Statistik Austria oder
+ELGA(Anwendungen) – ermöglichen.
+Die entwickelten Lösungen sind im Projektverlauf mit Fokus auf die Verbesserung im
+Vergleich zur jeweils definierten Baseline zu evaluieren. Dies setzt die gezielte
+Auswahl entsprechender Parameter voraus und kann verschiedene Datenquellen –
+wie Digitale Gesundheitsanwendungen oder Lifestyleapplikationen –
+miteinzubeziehen.
+Die Zugänglichkeit und Interoperabilität von Systemen und die Schnittstellen zum
+Beispiel zwischen Gesundheits- und Pflegebereich werden im Vorhaben adressiert.
+Der relevante Stand des Wissens (zum Beispiel in Hinblick auf Pflegerichtlinien), wird
+ebenso berücksichtigt wie bestehende Standards (zum Beispiel zur ELGA-
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 15/22
+Anbindung), sowie relevante Verordnungen wie zum Beispiel die
+Datenschutzgrundverordnung; die Europäische Medizinprodukteverordnung; das
+Gesundheitstelematikgesetz und die darauf beruhenden Verordnungen; das
+europäische KI-Gesetz; die Verordnung zur Schaffung eines Europäischen
+Gesundheitsdatenraumes (European Health Data Space, EHDS).
+3.2.3 Vorgaben für kooperative F&E-Projekte
+In kooperativen F&E-Projekten sollen – in einem datengestützten Ansatz – digitale
+Lösungen für bestimmte Krankheitsbilder und/oder zur Prävention
+(weiter)entwickelt werden. Dabei gelten sämtliche Anforderungen des
+Schwerpunkts, die im Kapitel 3.2.2 angeführt sind.
+Es sollen keine völlig neuen Zugänge entwickelt werden, sondern es soll auf schon
+bestehende Ansätze bzw. bestehendes Wissen aufgebaut werden. Es werden keine
+Projekte gefördert, die ausschließlich auf eine klinische Studie abzielen.
+Die Vorhaben fallen in die Forschungskategorie „Experimentelle Entwicklung“.
+Weitere Informationen über die Forschungskategorien finden Sie im
+Instrumentenleitfaden für kooperative F&E-Projekte.
+3.2.3.1 Einbeziehung von Endanwender:innen
+In diesem Schwerpunkt wird der Einbeziehung der Endanwender:innen ein hoher
+Stellenwert beigemessen. Durch die frühzeitige Einbindung von Endanwender:innen
+in die Förderinitiative sowie in die Forschungsvorhaben soll einerseits die Akzeptanz
+des Lösungsansatzes bzw. eine positive Benutzer:innenerfahrung unterstützt sowie
+die Gebrauchstauglichkeit gestärkt und andererseits die Übernahmebereitschaft
+bzw. Weiterführung der Lösungen bzw. Lösungsansätze erhöht werden.
+3.2.3.2 Benutzer:innenschnittstellen
+Es wird erwartet, dass den Themenbereichen Benutzer:innenschnittstellen,
+Benutzer:innenerfahrung und Gebrauchstauglichkeit, Technologieakzeptanz und
+Interoperabilität große Bedeutung zukommt. Bestehende Standards sollen soweit als
+möglich berücksichtigt werden.
+3.2.3.3 Ethische Aspekte
+Der Berücksichtigung ethischer Aspekte fällt in den geförderten Projekten
+herausragende Bedeutung zu. Ethische Aspekte sind in der Lösungskonzeption,
+während der gesamten Projektlaufzeit und in der Nach-Projektphase wichtig, wenn
+die Lösungen den Markt erreichen und genutzt werden. Ethische Aspekte sind also
+nicht nur punktuell von Bedeutung, sondern während all dieser Phasen vom
+gesamten Projektkonsortium zu berücksichtigen und können immer wieder neue
+Fragestellungen ins Zentrum rücken – daher wird eine prozessbegleitende ethische
+Bewertung ausdrücklich angeregt. Diese soll sowohl im Arbeits- wie auch im
+Kostenplan entsprechend abgebildet sein.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 16/22
+3.2.3.4 Zugänglichkeit
+Design, Produktgestaltung und Ästhetik können dazu beitragen, dass userfreundliche und zielgruppenadäquate Innovationen entwickelt werden.
+Gegebenenfalls sind Aspekte der Unterstützung der digitalen Kompetenz von
+Endanwender:innen zu adressieren, um die Zugänglichkeit der entwickelten Lösung
+optimal zu gewährleisten.
+Die Anforderungen in Hinblick auf Niedrigschwelligkeit in der Handhabung der
+entwickelten Lösungen werden beachtet. Sprachliche Hürden werden abgebaut,
+einfache bzw. intuitive Handhabung ist im Design verankert.
+3.2.3.5 Ökosysteme
+Um innovative Ansätze erfolgreich umsetzen zu können, ist die Berücksichtigung des
+jeweiligen Ökosystems von großer Bedeutung. Daher ist für geförderte Projekte der
+strukturierte Austausch vor allem mit zukünftigen Umsetzer:innen, Anwender:innen
+und Multiplikatoren einzuplanen, um umsetzungsrelevante Aspekte möglichst
+frühzeitig adressieren und integrieren zu können. Dies umfasst insbesondere auf
+Bundesländerebene relevante Entscheidungsträger:innen und Organisationen.
+Möglichst viele Anwender:innen sollen von den entwickelten Lösungsansätzen
+profitieren können. Der Austausch soll auch mit anderen thematisch relevanten
+Projekten im In- und Ausland stattfinden. Verschiedene Stakeholdergruppen sind
+während der gesamten Projektlaufzeit einzubeziehen. Weiters ist, wo notwendig, die
+Einbindung in neue, bestehende und zu adaptierende Prozesse zu berücksichtigen
+und einzuplanen. Dafür notwendige Innovations-, Integrations- und
+Abstimmungsaktivitäten unter Einbeziehung verschiedener Stakeholder auf
+nationaler, regionaler und lokaler Ebene sind im Arbeitsplan entsprechend zu
+berücksichtigen. Ebenso ist auf die politischen, legistischen und organisatorischen
+Rahmenbedingungen und Entwicklungsbedarfe einzugehen.
+Die Einreichsprache für kooperative F&E-Projekte ist Deutsch.
+Beachten Sie die weiteren Ausschreibungsvorgaben im Kapitel 4.
+3.2.4 Vorgaben für Qualifizierungsnetzwerke
+Qualifizierungsnetzwerke sind maßgeschneiderte, anwendungs- und
+umsetzungsorientierte Projekte, die zu einer Erhöhung der Forschungs-,
+Technologie-, Entwicklungs-, Innovations- und Digitalen (FTEI+D) Kompetenzen
+führen. Projekte dieses Ausschreibungsschwerpunktes sollen zur Erhöhung der
+Kompetenzen von Fachpersonal in Hinblick auf evidenzbasierte, digitale Lösungen
+für die Gesundheit führen. Dabei gelten sämtliche Anforderungen des Schwerpunkts,
+die im Kapitel 3.2.2 angeführt sind.
+Die Einreichsprache für Qualifizierungsnetzwerke ist Deutsch.
+Bitte beachten Sie die Informationen und Anforderungen an
+Qualifizierungsnetzwerke im Instrumentenleitfaden.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 17/22
+4 WEITERE AUSSCHREIBUNGSVORGABEN
+_
+4.1 Vorgaben zu Kosten und Personal
+Für die Zusammenarbeit mit folgenden begleitenden Initiativen des BMK für
+geförderte kooperative F&E Projekte sind im Kostenplan jeweils 2 Arbeitstage, in
+Summe somit 4 Arbeitstage, einzuplanen:
+− Für geförderte Projekte bietet das BMK das begleitende Service eines „Data
+Steward für F&E-Projekte“ an. Dieses Service zielt darauf ab, die
+Weiterentwicklung des DMPs zu unterstützen.
+− Für Vernetzungen mit anderen geförderten Projekten.
+Die geltenden Regelungen für Kosten und Abrechnung finden Sie im Kostenleitfaden.
+Um Unklarheit bezüglich Kostenpositionen auszuräumen, sind hier wesentliche
+Vorgaben angeführt:
+− Bei geförderten Reisekosten muss der Projektbezug eindeutig gegeben sein und
+ein Publikations- oder Forschungs- und Entwicklungsaspekt damit verbunden
+sein. Kosten für Reisen mit überwiegendem Ausbildungscharakter in F&EProjekten (z.B. Teilnahme an Sommerschulen) oder Vertriebscharakter (z.B.
+Messebesuche) werden nicht anerkannt.
+− Kosten für Marketing und Kund:innenakquise sind entsprechend des
+Kostenleitfadens nicht förderbar.
+4.2 Datenmanagementplan
+Antragsteller:innen für kooperative F&E-Projekte dieser Ausschreibung sind
+verpflichtet, einen Datenmanagementplan (DMP) als Annex zur Projektbeschreibung
+vorzulegen, der mit Berichtslegung laufend zu aktualisieren ist.
+Ein Datenmanagementplan (DMP) ist ein Managementtool, das dabei unterstützt,
+effizient und systematisch mit in den Projekten generierten Daten umzugehen.
+Für die Erstellung des DMP kann z.B. das kostenlose Tool DMP Online verwendet
+werden. Auch die Europäische Kommission bietet über ihre „Guidelines on FAIR Data
+Management“ Hilfestellung an.
+Ein Datenmanagement-Plan beschreibt,
+− welche Daten im Projekt gesammelt, erarbeitet oder generiert werden
+− wie mit diesen Daten im Projekt umgegangen wird
+− welche Methoden und Standards dabei angewendet werden
+− wie die Daten langfristig gesichert und gepflegt werden und
+− ob es geplant ist, Datensätze Dritten zugänglich zu machen und ihnen die
+Nachnutzung der Daten zu ermöglichen (sogenannter „Open Access zu
+Forschungsdaten“)
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 18/22
+Es ist sinnvoll, Forschungsdaten, die referierten Publikationen zugrunde liegen und
+deren Veröffentlichung zur Reproduzierbarkeit und Überprüfbarkeit der publizierten
+Ergebnisse notwendig ist, offen verfügbar zu machen.
+Werden Daten veröffentlicht, sollen die Grundsätze „auffindbar, zugänglich,
+interoperabel und wiederverwertbar“ berücksichtigt werden. Für eine optimale
+Auffindbarkeit empfiehlt es sich, die Daten in etablierten und international
+anerkannten Repositorien zu speichern (siehe auch die re3data Webseite).
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 19/22
+5 AUSSCHREIBUNGSDOKUMENTE
+_
+Reichen Sie das Projekt ausschließlich elektronisch via eCall ein.
+Die Einreichung beinhaltet folgende online Elemente, die im eCall unter folgenden
+Menüpunkten zu erfassen sind:
+− Inhaltliche Beschreibung umfasst die Darstellung der Projektinhalte.
+− Arbeitsplan beinhaltet die Darstellung der Arbeitspakete und Elemente des
+Projektmanagements wie Zeit-Managementplan (GANTT-Diagramm), Aufgaben,
+Meilensteine, Ergebnisse.
+− Konsortium beschreibt die Expertise der einzelnen Konsortiumsmitglieder.
+− Kosten und Finanzierung beschreibt alle Kostenkategorien pro
+Konsortiumsmitglied. Die Summen je Arbeitspaket werden automatisch im
+online Arbeitsplan angezeigt.
+Gegebenenfalls Anlagen zum elektronischen Antrag
+Sämtliche relevante Dokumente für die Ausschreibung finden Sie im Download
+Center:
+Tabelle 6: Ausschreibungsdokumente – Förderung
+Förderungsinstrument
+bzw. sonstige Information Verfügbare Ausschreibungsdokumente
+Kooperative F&E-Projekte
+− Instrumentenleitfaden Kooperative F&E-Projekte
+− Eidesstattliche Erklärung zum KMU-Status (bei Bedarf)
+Qualifizierungsnetzwerke
+− Instrumentenleitfaden Qualifizierungsnetzwerke
+− Eidesstattliche Erklärung zum KMU-Status (bei Bedarf)
+Allgemeine Regelungen zu
+Kosten − Kostenleitfaden (Kostenanerkennung in FFG-Projekten)
+Hinweis: Die eidesstattliche Erklärung zum KMU-Status ist für Vereine,
+Einzelunternehmen und ausländische Unternehmen notwendig. In der zur Verfügung
+gestellten Vorlage muss – sofern möglich – eine Einstufung der letzten 3 Jahre lt.
+KMU-Definition vorgenommen werden.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 20/22
+6 FÖRDERUNGSENTSCHEIDUNG UND
+RECHTSGRUNDLAGEN
+_
+Die Geschäftsführung der FFG trifft die Förderungsentscheidung auf Basis der
+Förderungsempfehlung des Bewertungsgremiums.
+Die Ausschreibung basiert auf der Richtlinie für die Österreichische
+Forschungsförderungsgesellschaft mbH zur Förderung von Forschung, Technologie,
+Entwicklung und Innovation zur Förderung digitaler wie industrieller Schlüssel- und
+Raumfahrttechnologien und -innovationen (FFG-Technologie-Richtlinie 2024-2026).
+Bezüglich der Unternehmensgröße ist die jeweils geltende KMU-Definition gemäß
+EU-Wettbewerbsrecht ausschlaggebend. Hilfestellung zur Einstufung finden sie auf
+der KMU-Seite der FFG.
+Sämtliche EU-Vorschriften sind in der jeweils geltenden Fassung anzuwenden.
+7 WEITERE INFORMATIONEN
+_
+In diesem Abschnitt finden Sie Informationen über weitere Förderungsmöglichkeiten
+und Services, die im Zusammenhang mit Förderungsansuchen bzw. geförderten
+Projekten für Sie hilfreich sein können.
+7.1 Service FFG Projektdatenbank
+Die FFG bietet als Service die Veröffentlichung von kurzen Informationen zu
+geförderten Projekten und eine Übersicht der Projektbeteiligten in einer öffentlich
+zugänglichen FFG Projektdatenbank an. Somit können Sie Ihr Projekt und Ihre
+Projektpartner besser für die interessierte Öffentlichkeit positionieren. Darüber
+hinaus kann die Datenbank zur Suche nach Kooperationspartnern genutzt werden.
+Nach positiver Förderungsentscheidung werden die Antragstellenden im eCall
+System über die Möglichkeit der Veröffentlichung von kurzen definierten
+Informationen zu ihrem Projekt in der FFG Projektdatenbank informiert. Eine
+Veröffentlichung erfolgt ausschließlich nach aktiver Zustimmung im eCall System.
+Nähere Informationen finden Sie auf der FFG-Seite zur Projektdatenbank.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 21/22
+7.2 Service BMK Open4Innovation
+Darüber hinaus bietet die Plattform open4innovation des BMK eine Wissensbasis für
+Unternehmen, Forschende etc. (community support, detailliertere Information,
+Erfolgsgeschichten usw.).
+7.3 Open Access Publikationen
+Die mit öffentlicher Förderung erzielten Forschungsergebnisse sind einer
+bestmöglichen Verwertung für Wissenschaft, Wirtschaft und Gesellschaft
+zuzuführen. In diesem Sinne ist bei referierten Publikationen, die mit Unterstützung
+der durch die FFG vergebenen Förderung entstehen, Open Access soweit wie
+möglich anzustreben. Als Prinzip gilt „as open as possible, as closed as necessary“,
+wie es auch für die Europäischen Förderungen angeführt wird.
+Publikationskosten zählen zu den förderbaren Projektkosten.
+7.4 Weitere Förderungsmöglichkeiten der FFG
+Sie interessieren sich für andere Förderungsmöglichkeiten der FFG?
+Das Förderservice ist die zentrale Anlaufstelle für Ihre Anfragen zu den Förderungen
+und Beratungsangeboten der FFG. Kontaktieren Sie uns, wir beraten Sie gerne!
+Kontakt: FFG-Förderservice, T: +43 (0) 57755-0, E: foerderservice@ffg.at
+Web: https://www.ffg.at/foerderservice
+Weitere Förderungsmöglichkeiten der FFG finden Sie weiters hier.
+8 ANHANG: CHECKLISTE FÜR DIE
+ANTRAGSEINREICHUNG
+_
+Bei der Formalprüfung wird das Förderungsansuchen auf formale Richtigkeit und
+Vollständigkeit geprüft. Bitte beachten Sie: Sind die Formalvoraussetzungen nicht
+erfüllt und handelt es sich um nicht-behebbare Mängel, wird das
+Förderungsansuchen bei der Formalprüfung aufgrund der erforderlichen
+Gleichbehandlung aller Förderungs- bzw. Finanzierungsansuchen ausnahmslos aus
+dem weiteren Verfahren ausgeschieden und formal abgelehnt.
+Virtuelle Welten und digitale Lösungen für die Gesundheit Seite 22/22
+Tabelle 7: Formalprüfungscheckliste für Förderungsansuchen
+Kriterium Prüfinhalt Mangel
+behebbar Konsequenz
+Die
+Projektbeschreibung
+ist ausreichend befüllt
+vorhanden und es
+wurde die richtige
+Sprache verwendet.
+Die OnlineProjektbeschreibung ist
+vollständig auszufüllen.
+Sprache: Schwerpunkt Virtuelle
+Welten:
+− Kooperative F&E Projekte:
+Englisch
+− Qualifizierungsnetzwerke:
+Deutsch
+Schwerpunkt Evidenzbasierte
+digitale Lösungen für die
+Gesundheit:
+− Kooperative F&E Projekte:
+Deutsch
+− Qualifizierungsnetzwerke:
+Deutsch
+Nein
+Ablehnung aus
+formalen
+Gründen
+Die verpflichtenden
+Anhänge gem.
+Ausschreibung liegen
+vor. [behebbar]
+Kooperative F&E Projekte:
+Datenmanagement-Plan
+(Angaben lt.
+Ausschreibungsleitfaden)
+Ja
+Korrektur per
+eCall nach
+Einreichung
+Uploads zu den
+Stammdaten im eCall
+(Upload als .pdfDokument)
+Jahresabschlüsse (Bilanz, GuV)
+der letzten 2 Geschäftsjahre
+liegen vor. Bei Start-Ups muss
+ein Businessplan vorliegen.
+Ja
+Korrektur per
+eCall nach
+Einreichung
+Der/die
+Förderungswerbende
+ist berechtigt, einen
+Antrag einzureichen.
+(Angaben lt. Instrumentenleitfaden) Nein
+Ablehnung aus
+formalen
+Gründen
+Bei Konsortien: Die
+Projektbeteiligten sind
+teilnahmeberechtigt.
+(Angaben lt. Instrumentenleitfaden) Nein
+Ablehnung aus
+formalen
+Gründen
+Mindestanforderungen
+an das Konsortium
+(Angaben lt.
+Instrumentenleitfaden) Nein
+Ablehnung aus
+formalen
+Gründen
