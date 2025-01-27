@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: scraping
+  datasource:
+    url: jdbc:postgresql://localhost:5432/grantscout-scraping
+    username: gs
+    password: Password12345678

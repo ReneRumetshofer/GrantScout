@@ -1,0 +1,53 @@
+Breitband Austria 2030: Connect - 2. Ausschreibung
+Ausschreibung laufend geöffnet - Anträge können jederzeit eingereicht werden
+Was wird gefördert?
+Gefördert werden die einmalig anfallenden Erschließungskosten in die passiven physischen Infrastrukturen für die Errichtung eines symmetrischen Gigabit-Zugangs durch einen Telekom-Anbieter.
+Wer wird gefördert?
+Gemeinden (für Standorte von öffentlichen Bildungseinrichtungen und öffentlichen Einrichtungen im eigenen Betrieb/Eigentum), KMU/EPU, Öffentliche Einrichtungen, Land- und Forstwirtschaftliche Betriebe, Fischerei- und Aquakulturbetriebe.
+Wie hoch ist die Förderung?
+Die maximal förderfähigen Projektkosten betragen 50.000 EUR. Die maximale Förderquote für den Anschluss von öffentlichen Bildungseinrichtungen durch Gemeinden ist 90%. Die maximale Förderquote für alle anderen Fördernehmenden beträgt 75%. D.h. es können maximal Förderungen von 45.000 EUR für öffentliche Bildungseinrichtungen bzw. 37.500 EUR für alle anderen Anträge ausbezahlt werden. Es kann zu einer Verringerung der Förderung durch die geltenden De-Minimis-Regelungen bei land- bzw. forstwirtschaftliche sowie Fischerei- und Aquakulturbetriebe kommen, weitere Informationen sind im Ausschreibungsleitfaden zu finden. Ein Vorhaben ist nur förderbar, wenn die förderungsfähigen Projektkosten mindestens 5.000,- Euro betragen.
+Was sind die Einreichkriterien?
+Der errichtete gigabitfähige Zugang muss als Point-to-Point (P2P) Verbindung ausgelegt sein. Technisch muss die Infrastruktur eine symmetrische gigabitfähige Nutzung erlauben. Das nach Projektende monatlich genutzte Internetprodukt muss mindestens 200 Mbit/s im Download liefern können. Für öffentliche Bildungseinrichtungen muss das Internetprodukt mindestens 100 Mbit/s im Download bieten können.
+Was brauche ich für eine Einreichung?
+Die Einreichung ist nur elektronisch via eCall möglich. Beachten Sie, dass für die Einreichung zwingend die Kooperation eines Telekom-Anbieters erforderlich ist. Der Telekom-Anbieter ist vom Förderwerbenden sowohl beim Antrag als auch beim Endbericht über eCall einzubinden. Der ausführende Telekom-Anbieter ist für die technische Ausführung, für die Darstellung der Kosten und der geplanten Ausbauten im WebGIS Tool des BMF verantwortlich. Der Telekom-Anbieter muss die Umsetzung des Vorhabens gemäß den Förderbedingungen vornehmen.
+Wann gibt es eine Entscheidung?
+BBA2030:C ist eine laufende Ausschreibung. Eine Einreichung ist jederzeit möglich. Die Förderentscheidung trifft der/die zuständige Bundesminister:in auf Basis der Förderempfehlung des Bewertungsgremiums. 
+Das Bewertungsgremium tritt alle 2 bis 3 Monate zusammen:
+Die FFG
+Über die FFG
+MitarbeiterInnen
+Zahlen, Daten, Fakten
+Kontakt und Anreise
+Services & Dienstleistungen
+Gutachten Forschungsprämie
+QuickCheck
+Jobbörse für Forschung
+Praktika für Jugendliche
+Beratung zu EU-Förderungen
+ 
+Partnersuche Europa
+Schulung und Training
+Rechtliche Services
+Technologietransfer
+Digitale Barrierefreiheit
+ 
+Innovationsfördernde öffentl. Beschaffung
+EU-Performance Monitoring
+Euraxess
+Förderungen
+Nationale Förderprogramme
+ 
+EU-Förderungen und Internationales 
+ Förderrichtlinien
+Informationen
+News
+Offene Ausschreibungen
+Veranstaltungen
+Publikationen und Berichte
+ 
+FFG auf Facebook
+Abkürzungsverzeichnis
+Glossar
+
+Die Österreichische Forschungsförderungsgesellschaft FFG steht im Eigentum der Republik Österreich. Eigentümervertreter sind das Bundesministerium für Arbeit und Wirtschaft und das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie.
+Copyright © 2005 - 2022 FFG - Die Österreichische Forschungsförderungsgesellschaft. All rights reserved. Worldwide.

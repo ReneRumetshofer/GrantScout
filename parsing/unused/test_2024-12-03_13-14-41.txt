@@ -1,0 +1,66 @@
+DIGITAL Europe Programme
+Ausschreibung offen von	04.07.2024 09:00 
+                            bis 21.01.2025 17:00
+Die siebte Cybersecurity Ausschreibung ist seit 4. Juli 2024 geöffnet und schließt am 21. Jänner 2025. Die Topics sind am EU Funding & Tenders Portal veröffentlicht. Aus dem Cybersecurity Arbeitsprogramm werden vier zentrale Themenbereiche gefördert. Hierfür stehen insgesamt 184 Mio. Euro zur Verfügung. Für die Stärkung der Widerstandsfähigkeit von Organisationen gegen Cyberangriffe sind im Rahmen des Themas Development and Deployment of Advanced Key Technologies 35 Mio. Euro vorgesehen. Weitere 70 Mio Euro werden für den Schwerpunkt Cybersecurity Emergency Mechanism bereitgestellt. Dieser soll die Bereitschaft und gegenseitige Unterstützung bei größeren industriellen Operationen und Anlagen verbessern. Zur Unterstützung der Umsetzung der EU-Gesetzgebung und nationaler Cybersicherheitsstrategien sind 20 Mio. Euro für das Thema Support for Implementation of EU Legislation on Cybersecurity and National Cybersecurity Strategies eingeplant. Schließlich sind 59 Mio. Euro in Themen für nationale und grenzüberschreitende Security Operation Centres (SOCs) vorgesehen, um das SOC-Ökosystem zu stärken.  
+Cloud, Data & AIderzeit keine offenen ThemenCybersecurityDIGITAL-ECCC-2024-DEPLOY-CYBER-074. Juli 2024 – 21. Jänner 2025
+Advanced Digital Skillsderzeit keine offenen Themen 
+Accelerating the Best Use of Technologiesderzeit keine offenen Themen
+Alle Details, die genauen Fristen und die Möglichkeit zur Einreichung zu den aktuellen Ausschreibungen entnehmen Sie dem EU Funding & Tenders Portal der Europäischen Kommission. Unter "Projects & Results" können Sie einen Einblick in bereits geförderte Aktivitäten aus dem Digital Europe Programme erhalten. DIGITAL Europe Ausschreibungsthemen bei denen es sich um Beschaffung ("Procurement") handelt, werden am eTED-Portal der Europäischen Union veröffentlicht. 
+ 
+Nationale Ko-Finanzierung
+Sollte die gegenständliche Förderquote der Europäischen Kommission (EK) für Ihr Thema nicht ausreichend sein um eine Teilnahme zu ermöglichen, gibt es die Möglichkeit um nationale Ko-Finanzierung anzusuchen. Eine fristgerechte Einreichung des ausgefüllten One-Pager per E-Mail an patricia.trinkl@ffg.at und max.arends@ffg.at. Folgende Voraussetzungen sind zu beachten:
+Die Einreichung des One-Pager muss je Organisation und fristgerecht (Fristen je Call siehe unten) erfolgen.
+Die jeweils aktuelle Vorlage des One-Pager muss vollständig ausgefüllt und firmenmäßig gezeichnet sein.
+Eine nationale Ko-Finanzierung ist ab einem Ko-Finanzierungsbetrag von mindestens 100.000 Euro möglich.
+Eine Evaluierung der eingelangten One-Pager erfolgt nach Ende der untenstehenden Fristen. Im Falle einer positiven Evaluierung und verfügbaren Ko-Finanzierungsmitteln erhalten Sie vor Einreichfrist der EK eine Rückmeldung in Form eines "Letter of Intent". 
+Fristen 5. Call DIGITAL-2023-SKILLS-05: 11. März 20246. Call DIGITAL-2024 (Hauptarbeitsprogramm, EK Einreichfrist 29. Mai 2024): 19. Mai 2024 6. Call DIGITAL-2024-AI-B-06-LANGUAGE: 16. September 20246. Call DIGITAL-2024-BESTUSE-TECH-06: 28. Oktober 20247. Call (Hauptarbeitsprogramm, EK Einreichfrist 21. November 2024): 11. November 2024
+ 
+Service
+Die FFG unterstützt mit ihrem Serviceangebot in allen Phasen der Projektvorbereitung. 
+Nutzen Sie auch unser FFG-Serviceangebot zum Proposal-Check: Gerne unterstützen wir Sie beim Feinschliff Ihrer Anträge. Schicken Sie uns Ihr Proposal bis zwei Wochen vor Einreichfrist, um innerhalb einer Woche, zeitgerecht vor Ende der Einreichfrist, Feedback zu erhalten.
+ 
+DIGITAL Europe Arbeitsprogramme
+Einen Überblick zu Inhalten, Einreichfristen und Budget zu sämtlichen Ausschreibungen können Sie sich jederzeit mit den Arbeitsprogrammen 2023-24 auf der Homepage der Europäischen Kommission zum DIGITAL Europe Programme verschaffen. Das DIGITAL Europe Programme gliedert sich in drei Arbeitsprogramme, die jeweils für zwei Jahre festgelegt werden. Die aktuellen Arbeitsprogramme umfassen die Jahre 2023-2024:
+Im Hauptarbeitsprogramm werden Aktivitäten in den Schlüsselbereichen Daten, Cloud, künstliche Intelligenz und Advanced Digital Skills umgesetzt. Insgesamt steht in diesem Arbeitsprogramm im Zeitraum 2023-2024 ein Budget in der Höhe von 909,5 Mio Euro zur Verfügung.
+Das Arbeitsprogramm Cybersecurity beinhaltet Themen zur Sicherstellung von Kapazitäten in der europäischen Cybersicherheitsbranche für die digitale Wirtschaft, Gesellschaft und Demokratie. Für Aktivitäten im Bereich Cybersecurity stehen für die Jahre 2023-24 geplante 375 Mio Euro zur Verfügung.
+Die Implementierung, Ausschreibung und Steuerung des High Performance Computing Arbeitsprogrammes erfolgt durch das Joint Undertaking EuroHPC.
+Weitere Informationen und etwaige News-Meldungen dazu finden Sie auch auf der Digital Europe Webseite der Europäischen Kommission.
+[Tipp] Jetzt anmelden und mit dem Newsletter "Europa und Internationales im Fokus" auf dem Laufenden bleiben!Folgen Sie uns auch auf Facebook und LinkedIn.
+Die FFG
+Über die FFG
+MitarbeiterInnen
+Zahlen, Daten, Fakten
+Kontakt und Anreise
+Services & Dienstleistungen
+Gutachten Forschungsprämie
+QuickCheck
+Jobbörse für Forschung
+Praktika für Jugendliche
+Beratung zu EU-Förderungen
+ 
+Partnersuche Europa
+Schulung und Training
+Rechtliche Services
+Technologietransfer
+Digitale Barrierefreiheit
+ 
+Innovationsfördernde öffentl. Beschaffung
+EU-Performance Monitoring
+Euraxess
+Förderungen
+Nationale Förderprogramme
+ 
+EU-Förderungen und Internationales 
+ Förderrichtlinien
+Informationen
+News
+Offene Ausschreibungen
+Veranstaltungen
+Publikationen und Berichte
+ 
+FFG auf Facebook
+Abkürzungsverzeichnis
+Glossar
+
+Die Österreichische Forschungsförderungsgesellschaft FFG steht im Eigentum der Republik Österreich. Eigentümervertreter sind das Bundesministerium für Arbeit und Wirtschaft und das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie.
+Copyright © 2005 - 2022 FFG - Die Österreichische Forschungsförderungsgesellschaft. All rights reserved. Worldwide.
