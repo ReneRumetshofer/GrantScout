@@ -9,7 +9,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">GrantScout</a>
+        <a class="navbar-brand" href="index.html">GrantScout</a>
     </div>
 </nav>
 
@@ -39,6 +39,7 @@
             <th>Kurzbeschreibung</th>
             <th>Förderbetrag</th>
             <th>Bewerbungsfrist</th>
+            <th>Aktionen</th>
         </tr>
         </thead>
         <tbody id="listings">
@@ -49,10 +50,14 @@
 
 <script>
     let data = [];
-    let jsonFiles = ["input.json", "input2.json"]; // Hier die Liste der JSON-Dateien angeben
+    let jsonFiles = ["input.json", "input2.json", "input3.json"];
 
     document.addEventListener("DOMContentLoaded", function() {
-        let promises = jsonFiles.map(file => fetch("mock/" + file).then(res => res.json()));
+        let promises = jsonFiles.map(file =>
+            fetch("mock/" + file)
+                .then(res => res.json())
+                .then(e => {e.JsonDatei = file; return e})
+        );
 
         Promise.all(promises)
             .then(jsonDataArray => {
@@ -62,6 +67,7 @@
             })
             .catch(error => console.error("Fehler beim Laden der Daten:", error));
     });
+
 
     function populateFilters() {
         let themenbereiche = new Set();
@@ -95,12 +101,16 @@
         filteredData.forEach(item => {
             let row = document.createElement("tr");
             row.innerHTML = `
-                    <td><a href="${item.Webseite}" target="_blank">${item.Name}</a></td>
-                    <td>${item.Themenbereich}</td>
-                    <td>${item.Kurzbeschreibung}</td>
-                    <td>${item.Förderbetrag}</td>
-                    <td>${item.Bewerbungsfrist.Bis}</td>
-                `;
+                <td><a href="${item.Webseite}" target="_blank">${item.Name}</a></td>
+                <td>${item.Themenbereich}</td>
+                <td>${item.Kurzbeschreibung}</td>
+                <td>${item.Förderbetrag}</td>
+                <td>${item.Bewerbungsfrist.Bis}</td>
+                <td>
+                    <button class="btn btn-primary" onclick="alert('Antrag erstellen!')">Antrag erstellen</button>
+                    <button class="btn btn-info" onclick="showDetails('${item.JsonDatei}')">Details anzeigen</button>
+                </td>
+            `;
             listings.appendChild(row);
         });
     }
@@ -108,6 +118,10 @@
     document.getElementById("search").addEventListener("input", renderTable);
     document.getElementById("filterThemenbereich").addEventListener("change", renderTable);
     document.getElementById("filterBewerbungsfrist").addEventListener("input", renderTable);
+
+    function showDetails(jsonFileName) {
+        window.location.href = 'details.html?json=' + jsonFileName;
+    }
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
