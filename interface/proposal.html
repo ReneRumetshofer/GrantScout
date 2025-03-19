@@ -2,13 +2,14 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Förderantrag - Antrag stellen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
         }
+
         .container {
             background-color: white;
             padding: 30px;
@@ -16,13 +17,16 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-top: 50px;
         }
+
         h1 {
             color: #007bff;
             margin-bottom: 20px;
         }
+
         .form-section {
             margin-bottom: 30px;
         }
+
         .form-section h3 {
             color: #007bff;
             margin-bottom: 15px;
@@ -43,104 +47,113 @@
         <div class="form-section">
             <h3>Allgemeine Informationen</h3>
             <div class="mb-3">
-                <label for="name" class="form-label">Antragsteller Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Name der Organisation/Unternehmen" required>
+                <label class="form-label" for="name">Antragsteller Name</label>
+                <input class="form-control" id="name" placeholder="Name der Organisation/Unternehmen" required
+                       type="text">
             </div>
             <div class="mb-3">
-                <label for="contactPerson" class="form-label">Kontaktperson</label>
-                <input type="text" class="form-control" id="contactPerson" placeholder="Name der Kontaktperson" required>
+                <label class="form-label" for="contactPerson">Kontaktperson</label>
+                <input class="form-control" id="contactPerson" placeholder="Name der Kontaktperson" required
+                       type="text">
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">E-Mail</label>
-                <input type="email" class="form-control" id="email" placeholder="E-Mail-Adresse" required>
+                <label class="form-label" for="email">E-Mail</label>
+                <input class="form-control" id="email" placeholder="E-Mail-Adresse" required type="email">
             </div>
             <div class="mb-3">
-                <label for="phone" class="form-label">Telefon</label>
-                <input type="tel" class="form-control" id="phone" placeholder="Telefonnummer" required>
+                <label class="form-label" for="phone">Telefon</label>
+                <input class="form-control" id="phone" placeholder="Telefonnummer" required type="tel">
             </div>
             <div class="mb-3">
-                <label for="address" class="form-label">Adresse</label>
-                <input type="text" class="form-control" id="address" placeholder="Straße, Stadt, PLZ" required>
+                <label class="form-label" for="address">Adresse</label>
+                <input class="form-control" id="address" placeholder="Straße, Stadt, PLZ" required type="text">
             </div>
             <div class="mb-3">
-                <label for="website" class="form-label">Webseite</label>
-                <input type="url" class="form-control" id="website" placeholder="Website (optional)">
+                <label class="form-label" for="website">Webseite</label>
+                <input class="form-control" id="website" placeholder="Website (optional)" type="url">
             </div>
         </div>
 
         <div class="form-section">
             <h3>Projektinformationen</h3>
             <div class="mb-3">
-                <label for="projectTitle" class="form-label">Projekttitel</label>
-                <input type="text" class="form-control" id="projectTitle" placeholder="Titel des Projekts" required>
+                <label class="form-label" for="projectTitle">Projekttitel</label>
+                <input class="form-control" id="projectTitle" placeholder="Titel des Projekts" required type="text">
             </div>
             <div class="mb-3">
-                <label for="projectDescription" class="form-label">Projektbeschreibung</label>
-                <textarea class="form-control" id="projectDescription" rows="4" placeholder="Beschreibung des Projekts" required></textarea>
+                <label class="form-label" for="projectDescription">Projektbeschreibung</label>
+                <textarea class="form-control" id="projectDescription" placeholder="Beschreibung des Projekts" required
+                          rows="4"></textarea>
             </div>
             <div class="mb-3">
-                <label for="startDate" class="form-label">Projektbeginn</label>
-                <input type="date" class="form-control" id="startDate" required>
+                <label class="form-label" for="startDate">Projektbeginn</label>
+                <input class="form-control" id="startDate" required type="date">
             </div>
             <div class="mb-3">
-                <label for="endDate" class="form-label">Projektende</label>
-                <input type="date" class="form-control" id="endDate" required>
+                <label class="form-label" for="endDate">Projektende</label>
+                <input class="form-control" id="endDate" required type="date">
             </div>
             <div class="mb-3">
-                <label for="fundingAmount" class="form-label">Beantragter Förderbetrag</label>
-                <input type="number" class="form-control" id="fundingAmount" placeholder="Förderbetrag in Euro" required>
+                <label class="form-label" for="fundingAmount">Beantragter Förderbetrag</label>
+                <input class="form-control" id="fundingAmount" placeholder="Förderbetrag in Euro" required
+                       type="number">
             </div>
             <div class="mb-3">
-                <label for="fundingPercentage" class="form-label">Förderquote</label>
-                <input type="number" class="form-control" id="fundingPercentage" placeholder="Förderquote (%)" required>
+                <label class="form-label" for="fundingPercentage">Förderquote</label>
+                <input class="form-control" id="fundingPercentage" placeholder="Förderquote (%)" required type="number">
             </div>
         </div>
 
         <div class="form-section">
             <h3>Finanzierungsplan</h3>
             <div class="mb-3">
-                <label for="totalCost" class="form-label">Gesamtkosten des Projekts</label>
-                <input type="number" class="form-control" id="totalCost" placeholder="Gesamtkosten in Euro" required>
+                <label class="form-label" for="totalCost">Gesamtkosten des Projekts</label>
+                <input class="form-control" id="totalCost" placeholder="Gesamtkosten in Euro" required type="number">
             </div>
             <div class="mb-3">
-                <label for="ownContribution" class="form-label">Eigenmittel</label>
-                <input type="number" class="form-control" id="ownContribution" placeholder="Eigenmittel in Euro" required>
+                <label class="form-label" for="ownContribution">Eigenmittel</label>
+                <input class="form-control" id="ownContribution" placeholder="Eigenmittel in Euro" required
+                       type="number">
             </div>
             <div class="mb-3">
-                <label for="thirdPartyFunding" class="form-label">Drittmittel / Co-Funding</label>
-                <input type="number" class="form-control" id="thirdPartyFunding" placeholder="Co-Funding in Euro" required>
+                <label class="form-label" for="thirdPartyFunding">Drittmittel / Co-Funding</label>
+                <input class="form-control" id="thirdPartyFunding" placeholder="Co-Funding in Euro" required
+                       type="number">
             </div>
         </div>
 
         <div class="form-section">
             <h3>Meilensteine und Zeitplan</h3>
             <div class="mb-3">
-                <label for="milestones" class="form-label">Projektmeilensteine</label>
-                <textarea class="form-control" id="milestones" rows="4" placeholder="Wichtige Meilensteine des Projekts" required></textarea>
+                <label class="form-label" for="milestones">Projektmeilensteine</label>
+                <textarea class="form-control" id="milestones" placeholder="Wichtige Meilensteine des Projekts" required
+                          rows="4"></textarea>
             </div>
             <div class="mb-3">
-                <label for="timeline" class="form-label">Projektzeitrahmen</label>
-                <input type="text" class="form-control" id="timeline" placeholder="Geben Sie die Phasen und Zeitrahmen an" required>
+                <label class="form-label" for="timeline">Projektzeitrahmen</label>
+                <input class="form-control" id="timeline" placeholder="Geben Sie die Phasen und Zeitrahmen an"
+                       required type="text">
             </div>
         </div>
 
         <div class="form-section">
             <h3>Risikoanalyse</h3>
             <div class="mb-3">
-                <label for="risks" class="form-label">Mögliche Risiken</label>
-                <textarea class="form-control" id="risks" rows="4" placeholder="Identifizieren Sie Risiken und Strategien zur Risikominderung"></textarea>
+                <label class="form-label" for="risks">Mögliche Risiken</label>
+                <textarea class="form-control" id="risks" placeholder="Identifizieren Sie Risiken und Strategien zur Risikominderung"
+                          rows="4"></textarea>
             </div>
         </div>
 
         <div class="form-section">
             <h3>Dokumente und Anhänge</h3>
             <div class="mb-3">
-                <label for="documents" class="form-label">Projektplan und Budget</label>
-                <input type="file" class="form-control" id="documents">
+                <label class="form-label" for="documents">Projektplan und Budget</label>
+                <input class="form-control" id="documents" type="file">
             </div>
         </div>
 
-        <button type="submit" class="btn btn-primary">Antrag einreichen</button>
+        <button class="btn btn-primary" type="submit">Antrag einreichen</button>
     </form>
 </div>
 
