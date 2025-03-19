@@ -43,7 +43,6 @@
         </tr>
         </thead>
         <tbody id="listings">
-        <!-- Dynamische Inhalte -->
         </tbody>
     </table>
 </div>
@@ -67,7 +66,6 @@
             })
             .catch(error => console.error("Fehler beim Laden der Daten:", error));
     });
-
 
     function populateFilters() {
         let themenbereiche = new Set();
@@ -107,7 +105,7 @@
                 <td>${item.Förderbetrag}</td>
                 <td>${item.Bewerbungsfrist.Bis}</td>
                 <td>
-                    <button class="btn btn-primary" onclick="alert('Antrag erstellen!')">Antrag erstellen</button>
+                    <button class="btn btn-primary" onclick="createProposal('${item.JsonDatei}')">Antrag erstellen</button>
                     <button class="btn btn-info" onclick="showDetails('${item.JsonDatei}')">Details anzeigen</button>
                 </td>
             `;
@@ -121,6 +119,10 @@
 
     function showDetails(jsonFileName) {
         window.location.href = 'details.html?json=' + jsonFileName;
+    }
+
+    function createProposal(jsonFileName) {
+        window.location.href = 'proposal.html?json=' + jsonFileName;
     }
 </script>
 
