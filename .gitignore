@@ -2,3 +2,4 @@
 /interface/backend/node_modules/
 /interface/backend/package-lock.json
 /.idea
+.env
