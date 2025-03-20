@@ -134,6 +134,6 @@ def process_files_in_folder_parallel(source_folder, target_folder, max_workers=5
             future.result()  # Auf Fehler prüfen
 
 # Beispielaufruf
-source_folder = "../text_files"  # Quellordner mit Textdateien
-target_folder = "../json_results"  # Zielordner für JSON-Dateien
+source_folder = "text_files"  # Quellordner mit Textdateien
+target_folder = "json_results"  # Zielordner für JSON-Dateien
 process_files_in_folder_parallel(source_folder, target_folder)
