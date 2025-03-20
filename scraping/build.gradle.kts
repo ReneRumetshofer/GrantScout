@@ -53,7 +53,7 @@ buildscript {
 }
 
 flyway {
-    url = "jdbc:postgresql://localhost:5432/grantscout-scraping"
+    url = "jdbc:postgresql://postgres:5432/grantscout-scraping"
     user = "gs"
     password = "Password12345678"
 }

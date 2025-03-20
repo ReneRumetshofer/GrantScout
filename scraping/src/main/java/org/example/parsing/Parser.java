@@ -77,7 +77,7 @@ public class Parser {
     )));
 
     public void parse(String text) {
-        String apiKey = "dein_openai_api_key";
+        String apiKey = System.getenv("OPENAI_API_KEY");
 
         OpenAiService service = new OpenAiService(apiKey, Duration.ofSeconds(30));
 

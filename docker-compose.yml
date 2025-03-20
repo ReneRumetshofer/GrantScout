@@ -13,8 +13,8 @@ services:
     networks:
       - backend
 
-  scraping:
-    container_name: scraping
+  backend:
+    container_name: backend
     build:
       context: ./scraping
     environment:
@@ -23,52 +23,21 @@ services:
       DB_USER: ${DB_USER}
       DB_PASSWORD: ${DB_PASSWORD}
       DB_NAME: ${DB_NAME}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
     depends_on:
       - postgres
     networks:
       - backend
 
-  parsing:
-    container_name: parsing
+  frontend:
+    container_name: frontend
     build:
-      context: ./parsing
-    environment:
-      DB_HOST: ${DB_HOST}
-      DB_PORT: ${DB_PORT}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_NAME: ${DB_NAME}
-    depends_on:
-      - postgres
-    networks:
-      - backend
-
-  interface-backend:
-    container_name: interface-backend
-    build:
-      context: ./interface/backend
-    environment:
-      DB_HOST: ${DB_HOST}
-      DB_PORT: ${DB_PORT}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_NAME: ${DB_NAME}
-    depends_on:
-      - postgres
-    ports:
-      - "3000:3000"
-    networks:
-      - backend
-
-  interface-frontend:
-    container_name: interface-frontend
-    build:
-      context: ./interface/frontend
+      context: ./frontend
     ports:
       - "80:80"
     depends_on:
       - postgres
-      - interface-backend
+      - backend
     networks:
       - backend
 
