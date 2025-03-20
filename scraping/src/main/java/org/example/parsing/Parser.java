@@ -77,7 +77,9 @@ public class Parser {
     )));
 
     public void parse(String text) {
+        System.out.println("Parsing...");
         String apiKey = System.getenv("OPENAI_API_KEY");
+        System.out.println("API Key: " + apiKey.substring(0, 6));
 
         OpenAiService service = new OpenAiService(apiKey, Duration.ofSeconds(30));
 
@@ -94,5 +96,6 @@ public class Parser {
                 .forEach(choice -> System.out.println(choice.getMessage().getContent()));
 
         service.shutdownExecutor();
+        System.out.println("Parsing done.");
     }
 }
