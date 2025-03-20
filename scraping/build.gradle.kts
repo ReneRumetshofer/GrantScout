@@ -39,6 +39,8 @@ dependencies {
     implementation("org.flywaydb:flyway-core:11.1.0")
     implementation("org.flywaydb:flyway-database-postgresql:11.1.0")
     runtimeOnly("org.postgresql:postgresql:42.7.4")
+
+    implementation("com.theokanning.openai-gpt3-java:service:0.18.2")
 }
 
 buildscript {
