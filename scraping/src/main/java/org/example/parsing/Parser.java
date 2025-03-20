@@ -1,5 +1,6 @@
 package org.example.parsing;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatMessage;
 import com.theokanning.openai.service.OpenAiService;
@@ -79,7 +80,7 @@ public class Parser {
     public void parse(String text) {
         System.out.println("Parsing...");
         String apiKey = System.getenv("OPENAI_API_KEY");
-        System.out.println("API Key: " + apiKey.substring(0, 6));
+        System.out.println("API Key: " + apiKey.substring(0, 7) + "*".repeat(apiKey.length()-7));
 
         OpenAiService service = new OpenAiService(apiKey, Duration.ofSeconds(30));
 
@@ -93,7 +94,17 @@ public class Parser {
 
         service.createChatCompletion(request)
                 .getChoices()
-                .forEach(choice -> System.out.println(choice.getMessage().getContent()));
+                .stream()
+                .map(choice -> {
+                    System.out.println(choice.getMessage().getContent());
+                    try {
+                        return new ObjectMapper().readValue(choice.getMessage().getContent(), ParsedCall.class);
+                    } catch (Exception e) {
+                        throw new RuntimeException("Fehler beim Parsen von JSON", e);
+                    }
+                })
+                .forEach(System.out::println);
+
 
         service.shutdownExecutor();
         System.out.println("Parsing done.");
