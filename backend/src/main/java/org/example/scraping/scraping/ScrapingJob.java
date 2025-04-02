@@ -1,17 +1,12 @@
 package org.example.scraping.scraping;
 
 import org.example.parsing.Parser;
-import org.example.scraping.parsing.AIParsing;
 import org.example.scraping.persistence.repositories.CallRepository;
-import org.example.scraping.scraping.ffg.FFGPdfParsing;
-import org.example.scraping.scraping.ffg.FFGPdfScraping;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-import java.nio.file.Path;
-import java.util.List;
 
 @Component
 public class ScrapingJob {

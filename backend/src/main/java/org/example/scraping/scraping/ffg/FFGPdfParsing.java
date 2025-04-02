@@ -14,7 +14,7 @@ import java.util.List;
 
 public class FFGPdfParsing {
 
-    public static List<Path> parsePdf(List<Path> pdfPaths) throws IOException{
+    public static List<Path> parsePdf(List<Path> pdfPaths) throws IOException {
         File resourcesFolder = new File("src/main/resources");
 //        File[] pdfFiles = resourcesFolder.listFiles((dir, name) -> name.toLowerCase().endsWith(".pdf"));
         List<File> pdfFiles = pdfPaths.stream().map(Path::toFile).toList();

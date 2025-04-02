@@ -22,11 +22,11 @@ public class FFGPdfScraping {
             List<Locator> pdfLinks = new ArrayList<>();
             page.locator("article a").all().forEach(link -> {
                 String linkDestination = link.getAttribute("href");
-                if(linkDestination == null) {
+                if (linkDestination == null) {
                     return;
                 }
 
-                if(linkDestination.startsWith("https://fdoc.ffg.at/") || linkDestination.endsWith(".pdf")) {
+                if (linkDestination.startsWith("https://fdoc.ffg.at/") || linkDestination.endsWith(".pdf")) {
                     pdfLinks.add(link);
                 }
             });
@@ -35,7 +35,7 @@ public class FFGPdfScraping {
             Path downloadDir = Paths.get(System.getProperty("user.dir"), "download");
             if (!downloadDir.toFile().exists()) {
                 boolean creationSuccess = downloadDir.toFile().mkdir();
-                if(!creationSuccess) {
+                if (!creationSuccess) {
                     throw new IllegalStateException("Could not create download directory");
                 }
             }

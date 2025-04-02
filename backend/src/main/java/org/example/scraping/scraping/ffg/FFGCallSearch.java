@@ -24,7 +24,7 @@ public class FFGCallSearch {
 
             // Go though pages (10 per page) and get all call links
             int pageCount = resultCount / 10;
-            if(resultCount % 10 != 0) {
+            if (resultCount % 10 != 0) {
                 pageCount++;
             }
             List<String> callLinks = new ArrayList<>();
@@ -35,7 +35,7 @@ public class FFGCallSearch {
 
                 page.locator("div.list-item article a").all().forEach(link -> {
                     String linkDestination = link.getAttribute("href");
-                    if(linkDestination == null) {
+                    if (linkDestination == null) {
                         return;
                     }
                     callLinks.add("https://www.ffg.at" + linkDestination);
