@@ -1,6 +1,6 @@
 spring:
   application:
-    name: scraping
+    name: backend
   datasource:
     url: jdbc:postgresql://postgres:5432/grantscout-scraping
     username: gs

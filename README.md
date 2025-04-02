@@ -19,7 +19,7 @@
 * Backend (without Docker)
   * IntelliJ IDEA: open Gradle view and execute `application > bootRun`
   * VS Code: ?
-  * Terminal: go to folder _[scraping](scraping/)_ and enter `./gradlew bootRun`
+  * Terminal: go to folder _[backend](backend/)_ and enter `./gradlew bootRun`
 * Frontend (only with Docker)
   * IntelliJ IDEA: open _[docker-compose.yml](docker-compose.yml)_ and press on the play button in the line with `frontend`
   * VS Code: ?
@@ -31,8 +31,8 @@
 
 **Note**: To start the backend, the database needs to be up and reachable.
 Therefore, the path to the database must be adjusted if the backend is not started within Docker from `jdbc:postgresql://postgres:5432/<database>` to `jdbc:postgresql://localhost:5432/<database>` in the following files:
-* [scraping/src/main/resources/application.yaml](scraping/src/main/resources/application.yaml)
-* [scraping/build.gradle.kts](scraping/build.gradle.kts)
+* [backend/src/main/resources/application.yaml](backend/src/main/resources/application.yaml)
+* [backend/build.gradle.kts](backend/build.gradle.kts)
 
 ### Start GrantScout (all services)
 1. create _.env_ file in root directory with following content and replace fields with `<...>`-annotations (do NOT push to repository):
@@ -48,7 +48,7 @@ Therefore, the path to the database must be adjusted if the backend is not start
 2. Build Java Jar (currently not done by Docker):
    * IntelliJ IDEA: open Gradle view and execute `build > bootJar`
    * VS Code: ?
-   * Terminal: go to folder _[scraping](scraping/)_ and enter `./gradlew bootJar`
+   * Terminal: go to folder _[backend](backend/)_ and enter `./gradlew bootJar`
 3. Run Docker
    * IntelliJ IDEA: open _[docker-compose.yml](docker-compose.yml)_ and press on the play button in the first line
    * VS Code: ?
