@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const jsonFileName = params.get('json');
 
-fetch("mock/" + jsonFileName)
+fetch("../mock/" + jsonFileName)
     .then(response => response.json())
     .then(ausschreibung => {
         document.getElementById("ausschreibungName").textContent = ausschreibung.Name;

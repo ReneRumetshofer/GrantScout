@@ -14,10 +14,20 @@ document.addEventListener("DOMContentLoaded", function () {
     Promise.all(promises)
         .then(jsonDataArray => {
             data = jsonDataArray.flat();
+            console.log(data)
             populateFilters();
             renderTable();
         })
         .catch(error => console.error("Fehler beim Laden der Daten:", error));
+
+    fetch("http://localhost:8080/calls")
+        .then(res => res.json())
+        .then(json => {
+            data = json.flat()
+            console.log(data)
+            populateFilters();
+            renderTable();
+        })
 });
 
 function populateFilters() {
@@ -71,9 +81,9 @@ document.getElementById("filterThemenbereich").addEventListener("change", render
 document.getElementById("filterBewerbungsfrist").addEventListener("input", renderTable);
 
 function showDetails(jsonFileName) {
-    window.location.href = 'details.html?json=' + jsonFileName;
+    window.location.href = 'html/details.html?json=' + jsonFileName;
 }
 
 function createProposal(jsonFileName) {
-    window.location.href = 'proposal.html?json=' + jsonFileName;
+    window.location.href = 'html/proposal.html?json=' + jsonFileName;
 }
