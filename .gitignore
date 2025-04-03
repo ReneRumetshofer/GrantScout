@@ -1,5 +1,3 @@
 .directory
-/interface/backend/node_modules/
-/interface/backend/package-lock.json
-/.idea
+.idea
 .env
