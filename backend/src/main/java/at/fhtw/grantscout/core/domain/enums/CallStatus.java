@@ -1,6 +1,7 @@
-package at.fhtw.grantscout.scraping.persistence.entities;
+package at.fhtw.grantscout.core.domain.enums;
 
 public enum CallStatus {
+    FOUND,
     SCRAPED,
     PARSED,
     ERROR

@@ -5,7 +5,7 @@ CREATE TABLE call
     id        BIGINT        NOT NULL,
     url       VARCHAR(1024) NOT NULL,
     institute VARCHAR(255)  NOT NULL,
-    scraped   BOOLEAN       NOT NULL,
+    status    VARCHAR(255)  NOT NULL,
     CONSTRAINT pk_call PRIMARY KEY (id)
 );
 

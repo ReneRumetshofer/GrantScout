@@ -1,4 +1,4 @@
-package at.fhtw.grantscout.scraping.persistence.entities;
+package at.fhtw.grantscout.out.persistence.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

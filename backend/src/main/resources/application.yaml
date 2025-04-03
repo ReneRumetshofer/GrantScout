@@ -6,5 +6,13 @@ spring:
     username: ${DB_USER}
     password: ${DB_PASSWORD}
 
+logging:
+  level:
+    at.fhtw.grantscout: debug
+
+scraping:
+  interval_minutes: 10
+  ffg_base_url: https://www.ffg.at/foerderungen?status[3]=3&status[1]=1&status[2]=2
+
 openai:
   key: ${OPENAI_API_KEY}

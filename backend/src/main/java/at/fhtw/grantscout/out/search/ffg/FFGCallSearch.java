@@ -1,14 +1,21 @@
-package at.fhtw.grantscout.scraping.scraping.ffg;
+package at.fhtw.grantscout.out.search.ffg;
 
+import at.fhtw.grantscout.core.ports.out.ForFFGCallSearch;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.LoadState;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FFGCallSearch {
+@Component
+public class FFGCallSearch implements ForFFGCallSearch {
 
-    public static List<String> search(String url) {
+    private Logger logger = LoggerFactory.getLogger(FFGCallSearch.class);
+
+    public List<String> search(String url) {
         try (Playwright playwright = Playwright.create()) {
             Browser browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(true));
             BrowserContext context = browser.newContext();
@@ -29,6 +36,7 @@ public class FFGCallSearch {
             }
             List<String> callLinks = new ArrayList<>();
             for (int i = 0; i < pageCount; i++) {
+                logger.debug("FFG Search - page {}", i + 1);
                 String pageUrl = url + "&page=" + i;
                 page.navigate(pageUrl);
                 page.waitForLoadState(LoadState.NETWORKIDLE);

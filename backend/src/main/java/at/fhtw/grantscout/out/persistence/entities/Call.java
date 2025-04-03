@@ -1,9 +1,9 @@
-package at.fhtw.grantscout.scraping.persistence.entities;
+package at.fhtw.grantscout.out.persistence.entities;
 
+import at.fhtw.grantscout.core.domain.enums.CallStatus;
+import at.fhtw.grantscout.core.domain.enums.Institute;
 import jakarta.persistence.*;
 import lombok.*;
-
-import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "call", uniqueConstraints = {@UniqueConstraint(columnNames = "url", name = "UQ_call_url")})
@@ -22,9 +22,11 @@ public class Call {
     @Column(nullable = false, length = 1024)
     private String url;
 
-    @Column(nullable = false, length = 255)
-    private String institute;
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
+    private Institute institute;
 
     @Column(nullable = false)
-    private Boolean scraped = false;
+    @Enumerated(EnumType.STRING)
+    private CallStatus status;
 }
