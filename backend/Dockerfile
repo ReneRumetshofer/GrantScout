@@ -1,13 +1,10 @@
-#FROM eclipse-temurin:21-jdk as builder
-#WORKDIR /app
-#COPY gradlew build.gradle.kts settings.gradle.kts ./
-#COPY src src
-#COPY gradle gradle
-#RUN chmod +x gradlew
-#RUN ./gradlew bootJar
-
-FROM eclipse-temurin:21-jre
+FROM gradle:8.13-jdk21 AS builder
 WORKDIR /app
-#COPY --from=builder /app/build/libs/*.jar app.jar
-COPY build/libs/backend-0.0.1-SNAPSHOT.jar app.jar
+COPY . .
+RUN gradle build --no-daemon
+
+FROM eclipse-temurin:21-jre AS runtime
+WORKDIR /app
+COPY --from=builder /app/build/libs/*.jar app.jar
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
