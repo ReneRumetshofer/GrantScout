@@ -21,7 +21,8 @@
 ### Start GrantScout (one service)
 
 * Backend (without Docker)
-    * IntelliJ IDEA: open Gradle view and execute `application > bootRun`
+    * IntelliJ IDEA: open Gradle view and execute `application > bootRun`. Make sure to select the correct profile
+      (e.g. `local` or `prod`) in the _Run/Debug Configurations_.
     * VS Code: ?
     * Terminal: go to folder _[backend](backend/)_ and enter `./gradlew bootRun`
 * Frontend (only with Docker)
@@ -45,7 +46,7 @@ Therefore, the path to the database must be adjusted if the backend is not start
 ### Start GrantScout (all services)
 
 1. create _.env_ file in root directory with following content and replace fields with `<...>`-annotations (do NOT push
-   to repository):
+   to repository). See `example.env` for local setup:
     ```properties
     DB_NAME=<database>      # choose whatever you want
     DB_USER=<username>      # choose whatever you want

@@ -1,4 +1,4 @@
-package org.example.parsing;
+package at.fhtw.grantscout.parsing;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

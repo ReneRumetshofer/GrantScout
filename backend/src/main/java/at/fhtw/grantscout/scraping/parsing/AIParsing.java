@@ -1,4 +1,4 @@
-package org.example.scraping.parsing;
+package at.fhtw.grantscout.scraping.parsing;
 
 import java.io.BufferedReader;
 import java.io.File;

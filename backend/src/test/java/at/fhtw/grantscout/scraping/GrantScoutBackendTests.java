@@ -1,10 +1,10 @@
-package org.example.scraping;
+package at.fhtw.grantscout.scraping;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ScrapingApplicationTests {
+class GrantScoutBackendTests {
 
     @Test
     void contextLoads() {

@@ -1,7 +1,7 @@
-package org.example.scraping.scraping;
+package at.fhtw.grantscout.scraping.scraping;
 
-import org.example.parsing.Parser;
-import org.example.scraping.persistence.repositories.CallRepository;
+import at.fhtw.grantscout.scraping.persistence.repositories.CallRepository;
+import at.fhtw.grantscout.parsing.Parser;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
@@ -12,9 +12,11 @@ import java.io.IOException;
 public class ScrapingJob {
 
     private final CallRepository callRepository;
+    private final Parser parser;
 
-    public ScrapingJob(CallRepository callRepository) {
+    public ScrapingJob(CallRepository callRepository, Parser parser) {
         this.callRepository = callRepository;
+        this.parser = parser;
     }
 
     @EventListener(ApplicationReadyEvent.class)
@@ -24,7 +26,7 @@ public class ScrapingJob {
 //        List<Path> scrapedPdfs = FFGPdfScraping.scrapePdfs(grantCallUrls.get(0));
         //List<Path> scrapedPdfs = FFGPdfScraping.scrapePdfs("https://www.ffg.at/Breitband2030/GigaApp/2AS");
 
-        new Parser().parse("""
+        parser.parse("""
                 BBA2030: GigaApp fördert Leuchtturmprojekte mit überregionaler Sichtbarkeit und Vorbildfunktion für unterschiedliche vertikale Business-Segmente wie z.B. Energie, Industrie, Mobilität, Tourismus oder Land- und Forstwirtschaft. Die Ausschreibung ist offen und nicht auf bestimmte Business-Segmente eingegrenzt.
                 Es stehen dabei Problemstellungen im Mittelpunkt, die den Digitalisierungsprozess vorantreiben und aktuelle Herausforderungen wie z.B. Resilienz oder die Steigerung der Energieeffizienz aus den unterschiedlichen Business-Segmenten adressieren.
                 Gefördert wird die Entwicklung innovativer digitaler Anwendungen (z.B. Hardware und/oder Software) und Diensten auf Basis der gigabitfähigen Infrastruktur. Das heißt, dass die neuen Anwendungen und Dienste eine qualitativ hochwertige Internetanbindung über LWL-Infrastruktur und/oder 5G benötigen.

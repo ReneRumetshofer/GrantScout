@@ -1,6 +1,6 @@
-package org.example.scraping.persistence.repositories;
+package at.fhtw.grantscout.scraping.persistence.repositories;
 
-import org.example.scraping.persistence.entities.Call;
+import at.fhtw.grantscout.scraping.persistence.entities.Call;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

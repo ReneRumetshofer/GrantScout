@@ -1,16 +1,23 @@
-package org.example.parsing;
+package at.fhtw.grantscout.parsing;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatMessage;
 import com.theokanning.openai.service.OpenAiService;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Component
 public class Parser {
+
+    @Value("${openai.key}")
+    private String openApiKey;
+
     private static final List<ChatMessage> PROMPTSETUP = new ArrayList<>(Arrays.asList(
             new ChatMessage("system", "You are a helpful assistant for standardizing grant information."),
             new ChatMessage("user",
@@ -78,11 +85,9 @@ public class Parser {
             )));
 
     public void parse(String text) {
-        System.out.println("Parsing...");
-        String apiKey = System.getenv("OPENAI_API_KEY");
-        System.out.println("API Key: " + apiKey.substring(0, 7) + "*".repeat(apiKey.length() - 7));
+        System.out.println("API Key: " + openApiKey.substring(0, 7) + "*".repeat(openApiKey.length() - 7));
 
-        OpenAiService service = new OpenAiService(apiKey, Duration.ofSeconds(30));
+        OpenAiService service = new OpenAiService(openApiKey, Duration.ofSeconds(30));
 
         List<ChatMessage> PROMPT = new ArrayList<>(PROMPTSETUP);
         PROMPT.add(new ChatMessage("user", text));

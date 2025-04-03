@@ -1,10 +1,12 @@
-package org.example.scraping.persistence.entities;
+package at.fhtw.grantscout.scraping.persistence.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDateTime;
+
 @Entity
-@Table(name = "call", uniqueConstraints = {@UniqueConstraint(columnNames = "url")})
+@Table(name = "call", uniqueConstraints = {@UniqueConstraint(columnNames = "url", name = "UQ_call_url")})
 @Getter
 @Setter
 @NoArgsConstructor
@@ -25,7 +27,4 @@ public class Call {
 
     @Column(nullable = false)
     private Boolean scraped = false;
-
-    @Column(columnDefinition = "TEXT")
-    private String content;
 }
