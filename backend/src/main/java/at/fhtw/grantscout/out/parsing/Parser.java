@@ -1,4 +1,4 @@
-package at.fhtw.grantscout.parsing;
+package at.fhtw.grantscout.out.parsing;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;

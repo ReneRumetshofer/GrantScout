@@ -17,8 +17,8 @@ public class ScrapedCall {
     @Id
     private Long id;
 
-    @OneToOne
-    @JoinColumn(name = "id", referencedColumnName = "id")
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id", nullable = false)
     private Call call;
 
     @Column(nullable = false)

@@ -2,7 +2,7 @@ package at.fhtw.grantscout.core.ports.out;
 
 import java.util.List;
 
-public interface ForFFGCallSearch {
+public interface ForCallSearch {
 
     List<String> search(String baseUrl);
 

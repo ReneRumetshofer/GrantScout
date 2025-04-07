@@ -1,4 +1,4 @@
-package at.fhtw.grantscout.scraping.scraping;
+package at.fhtw.grantscout.in;
 
 import at.fhtw.grantscout.core.CallSearchUseCase;
 import org.springframework.scheduling.annotation.Scheduled;

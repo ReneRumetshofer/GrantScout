@@ -1,6 +1,6 @@
 package at.fhtw.grantscout.out.search.ffg;
 
-import at.fhtw.grantscout.core.ports.out.ForFFGCallSearch;
+import at.fhtw.grantscout.core.ports.out.ForCallSearch;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.LoadState;
 import org.slf4j.Logger;
@@ -11,10 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class FFGCallSearch implements ForFFGCallSearch {
+public class FFGCallSearch implements ForCallSearch {
 
     private Logger logger = LoggerFactory.getLogger(FFGCallSearch.class);
 
+    @Override
     public List<String> search(String url) {
         try (Playwright playwright = Playwright.create()) {
             Browser browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(true));
@@ -49,6 +50,9 @@ public class FFGCallSearch implements ForFFGCallSearch {
                     callLinks.add("https://www.ffg.at" + linkDestination);
                 });
             }
+
+            page.close();
+            browser.close();
 
             return callLinks;
         }

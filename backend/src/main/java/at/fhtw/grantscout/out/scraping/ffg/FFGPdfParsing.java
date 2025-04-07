@@ -1,4 +1,4 @@
-package at.fhtw.grantscout.scraping.scraping.ffg;
+package at.fhtw.grantscout.out.scraping.ffg;
 
 import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.pdmodel.PDDocument;

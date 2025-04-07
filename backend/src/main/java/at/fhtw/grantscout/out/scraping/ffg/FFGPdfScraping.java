@@ -1,4 +1,4 @@
-package at.fhtw.grantscout.scraping.scraping.ffg;
+package at.fhtw.grantscout.out.scraping.ffg;
 
 import com.microsoft.playwright.*;
 
