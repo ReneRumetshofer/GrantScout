@@ -38,7 +38,7 @@ public class EUCallSearch implements ForCallSearch {
             }
             Set<String> callUrls = new HashSet<>();
             for (int i = 0; i < pageCount; i++) {
-                if(i == 5) break;
+                if(i == 2) break;
 
                 logger.debug("EU Search - page {}", i + 1);
                 String pageUrl = baseUrl + "&pageNumber=" + i + 1;

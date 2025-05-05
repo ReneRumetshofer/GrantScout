@@ -1,6 +1,8 @@
 package at.fhtw.grantscout.core;
 
+import at.fhtw.grantscout.core.domain.enums.CallStatus;
 import at.fhtw.grantscout.core.domain.enums.Institute;
+import at.fhtw.grantscout.core.events.CallScrapedEvent;
 import at.fhtw.grantscout.core.ports.out.ForContentScraping;
 import at.fhtw.grantscout.out.persistence.entities.Call;
 import at.fhtw.grantscout.out.persistence.entities.ScrapedCall;
@@ -10,6 +12,7 @@ import at.fhtw.grantscout.out.scraping.eu.EUContentScraper;
 import at.fhtw.grantscout.out.search.eu.EUCallSearch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
@@ -24,11 +27,13 @@ public class ScrapeUseCase {
 
     private final CallRepository callRepository;
     private final ScrapedCallRepository scrapedCallRepository;
+    private final ApplicationEventPublisher eventPublisher;
 
-    public ScrapeUseCase(EUContentScraper euContentScraper, CallRepository callRepository, ScrapedCallRepository scrapedCallRepository) {
+    public ScrapeUseCase(EUContentScraper euContentScraper, CallRepository callRepository, ScrapedCallRepository scrapedCallRepository, ApplicationEventPublisher eventPublisher) {
         this.euContentScraper = euContentScraper;
         this.callRepository = callRepository;
         this.scrapedCallRepository = scrapedCallRepository;
+        this.eventPublisher = eventPublisher;
     }
 
     public void scrape(List<Long> callIds) {
@@ -48,6 +53,11 @@ public class ScrapeUseCase {
                     .content(content)
                     .build();
             scrapedCallRepository.save(scrapedCall);
+
+            call.setStatus(CallStatus.SCRAPED);
+            callRepository.save(call);
+
+            eventPublisher.publishEvent(new CallScrapedEvent(this, scrapedCall.getId()));
         }
         catch (Exception e) {
             logger.error("Error while scraping call {}", call.getUrl(), e);
