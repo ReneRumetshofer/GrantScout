@@ -23,11 +23,11 @@ public class ScrapingJob {
 
     @Scheduled(fixedRateString = "${scraping.interval_minutes}", timeUnit = TimeUnit.MINUTES)
     public void initScraping() {
-//        callSearchUseCase.conductSearch();
-//
-//        scrapeUseCase.scrapePreviouslyFoundCalls();
+        callSearchUseCase.conductSearch();
 
-//        parsingPreviouslyScrapedUseCase.parsePreviouslyScrapedCalls();
+        // Catch-alls on failure
+        scrapeUseCase.scrapePreviouslyFoundCalls();
+        parsingPreviouslyScrapedUseCase.parsePreviouslyScrapedCalls();
     }
 
 }
