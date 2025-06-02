@@ -20,11 +20,11 @@ public class CallController {
 
     @GetMapping
     public ResponseEntity<Object> getCalls(@RequestParam("type") CallStatus status) {
-        switch (status) {
+        return switch (status) {
             case CallStatus.SCRAPED -> ResponseEntity.ok(findCallsUseCase.findAllScrapedCalls());
-        }
-
-        return ResponseEntity.ok().build();
+            case CallStatus.PARSED -> ResponseEntity.ok(findCallsUseCase.findAllParsedCalls());
+            default -> ResponseEntity.notFound().build();
+        };
     }
 
 }

@@ -27,7 +27,7 @@ public class ScrapingJob {
 //
 //        scrapeUseCase.scrapePreviouslyFoundCalls();
 
-        parsingPreviouslyScrapedUseCase.parsePreviouslyScrapedCalls();
+//        parsingPreviouslyScrapedUseCase.parsePreviouslyScrapedCalls();
     }
 
 }
