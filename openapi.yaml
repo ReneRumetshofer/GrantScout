@@ -2,7 +2,8 @@ openapi: 3.0.1
 info:
   title: GrantScout
   version: "0.1"
-
+servers:
+  - url: http://localhost:8080
 paths:
   /calls:
     get:
