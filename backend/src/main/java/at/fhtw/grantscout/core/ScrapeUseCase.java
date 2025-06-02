@@ -9,7 +9,6 @@ import at.fhtw.grantscout.out.persistence.entities.ScrapedCall;
 import at.fhtw.grantscout.out.persistence.repositories.CallRepository;
 import at.fhtw.grantscout.out.persistence.repositories.ScrapedCallRepository;
 import at.fhtw.grantscout.out.scraping.eu.EUContentScraper;
-import at.fhtw.grantscout.out.search.eu.EUCallSearch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationEventPublisher;
@@ -39,6 +38,14 @@ public class ScrapeUseCase {
     public void scrape(List<Long> callIds) {
         List<Call> calls = callRepository.findAllById(callIds);
         calls.forEach(this::callScraper);
+        logger.info("Scraped {} calls", calls.size());
+    }
+
+    public void scrapePreviouslyFoundCalls() {
+        List<Call> calls = callRepository.findAllByStatus(CallStatus.FOUND);
+        logger.debug("Found {} previously found calls from database to scrape", calls.size());
+        calls.forEach(this::callScraper);
+        logger.info("Scraped {} calls", calls.size());
     }
 
     private void callScraper(Call call) {
