@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Fehler beim Laden der Daten:", error));
 
-    fetch("http://localhost:8080/calls")
+    fetch("https://localhost/api/calls?type=PARSED")
         .then(res => res.json())
         .then(json => {
-            data = json.flat()
+            data.push(...json.flat())
             console.log(data)
             populateFilters();
             renderTable();
@@ -68,8 +68,8 @@ function renderTable() {
                 <td>${item.Förderbetrag}</td>
                 <td>${item.Bewerbungsfrist.Bis}</td>
                 <td>
-                    <button class="btn btn-primary" onclick="createProposal('${item.JsonDatei}')">Antrag erstellen</button>
-                    <button class="btn btn-info" onclick="showDetails('${item.JsonDatei}')">Details anzeigen</button>
+                    <button class="btn btn-primary" onclick="createProposal('${item.ID}')">Antrag erstellen</button>
+                    <button class="btn btn-info" onclick="showDetails('${item.ID}')">Details anzeigen</button>
                 </td>
             `;
         listings.appendChild(row);
@@ -81,9 +81,9 @@ document.getElementById("filterThemenbereich").addEventListener("change", render
 document.getElementById("filterBewerbungsfrist").addEventListener("input", renderTable);
 
 function showDetails(jsonFileName) {
-    window.location.href = 'html/details.html?json=' + jsonFileName;
+    window.location.href = 'html/details.html?id=' + jsonFileName;
 }
 
 function createProposal(jsonFileName) {
-    window.location.href = 'html/proposal.html?json=' + jsonFileName;
+    window.location.href = 'html/proposal.html?id=' + jsonFileName;
 }

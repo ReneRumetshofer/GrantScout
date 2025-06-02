@@ -1,9 +1,22 @@
 const params = new URLSearchParams(window.location.search);
-const jsonFileName = params.get('json');
+const id = params.get('id');
 
-fetch("../mock/" + jsonFileName)
-    .then(response => response.json())
-    .then(ausschreibung => {
-        document.getElementById("ausschreibungName").textContent = ausschreibung.Name;
-    })
-    .catch(error => console.error('Fehler beim Laden der Details:', error));
+if (!id) {
+    console.error('Keine ID in der URL angegeben.');
+} else {
+    fetch("https://localhost/api/calls?type=PARSED")
+        .then(response => response.json())
+        .then(data => {
+            const ausschreibungen = data.flat();
+            const ausschreibung = ausschreibungen.find(item => item.ID == id);
+
+            if (!ausschreibung) {
+                console.error('Ausschreibung mit ID ' + id + ' nicht gefunden.');
+                document.querySelector('body').innerHTML = '<div class="container mt-4"><h1>Ausschreibung nicht gefunden</h1></div>';
+                return;
+            }
+
+            document.getElementById("ausschreibungName").textContent = ausschreibung.Name;
+        })
+        .catch(error => console.error('Fehler beim Laden der Details:', error));
+}
