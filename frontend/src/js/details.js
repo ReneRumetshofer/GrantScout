@@ -8,7 +8,9 @@ if (!id) {
         .then(response => response.json())
         .then(data => {
             const ausschreibungen = data.flat();
-            const ausschreibung = ausschreibungen.find(item => item.ID == id);
+            console.log(ausschreibungen);
+            const ausschreibung = ausschreibungen.find(item => item.call.id === Number(id));
+            console.log(ausschreibung);
 
             if (!ausschreibung) {
                 console.error('Ausschreibung mit ID ' + id + ' nicht gefunden.');
@@ -16,45 +18,49 @@ if (!id) {
                 return;
             }
 
-            document.getElementById("ausschreibungName").textContent = ausschreibung.Name;
-            document.getElementById("themenbereich").textContent = ausschreibung.Themenbereich;
-            document.getElementById("kurzbeschreibung").textContent = ausschreibung.Kurzbeschreibung;
-            document.getElementById("langbeschreibung").textContent = ausschreibung.Langbeschreibung;
-            document.getElementById("foerderbetrag").textContent = ausschreibung.Förderbetrag;
-            document.getElementById("bewerbungsfrist").textContent = `${ausschreibung.Bewerbungsfrist.Von} bis ${ausschreibung.Bewerbungsfrist.Bis}`;
+            let parsedData = ausschreibung.parsedData
 
-            const regionen = document.getElementById("regionen");
-            ausschreibung.Regionen.forEach(region => {
+            document.getElementById("ausschreibungName").textContent = parsedData.name;
+            document.getElementById("themenbereich").textContent = parsedData.topic;
+            document.getElementById("kurzbeschreibung").textContent = parsedData.shortDescription;
+            document.getElementById("langbeschreibung").textContent = parsedData.longDescription;
+            document.getElementById("foerderbetrag").textContent = parsedData.grantCallSum;
+            document.getElementById("bewerbungsfrist").textContent = `${parsedData.applicationDeadlines.from} bis ${parsedData.applicationDeadlines.to}`;
+
+            document.getElementById("regionen").textContent = parsedData.regions;
+            /*const regionen = document.getElementById("regionen");
+            parsedData.region.forEach(region => {
                 let li = document.createElement("li");
                 li.textContent = region;
                 regionen.appendChild(li);
-            });
+            });*/
 
-            const zielgruppe = document.getElementById("zielgruppe");
-            ausschreibung.Zielgruppe.forEach(ziel => {
+            document.getElementById("zielgruppe").textContent = parsedData.targetGroup;
+            /*const zielgruppe = document.getElementById("zielgruppe");
+            parsedData.targetGroup.forEach(ziel => {
                 let li = document.createElement("li");
                 li.textContent = ziel;
                 zielgruppe.appendChild(li);
-            });
+            });*/
 
             const kontakte = document.getElementById("kontakte");
-            ausschreibung.Kontakt.forEach(contact => {
+            parsedData.contact.forEach(contact => {
                 let li = document.createElement("li");
-                li.innerHTML = `${contact.Ansprechpartner}: <a href="mailto:${contact['E-Mail']}">${contact['E-Mail']}</a>, Telefon: ${contact.Telefon}`;
+                li.innerHTML = `${contact.contactPerson}: <a href="mailto:${contact['email']}">${contact['email']}</a>, Telefon: ${contact.telephone}`;
                 kontakte.appendChild(li);
             });
 
             const optional = document.getElementById("optional");
-            for (const key in ausschreibung.Optional) {
+            for (const key in parsedData.optional) {
                 let dt = document.createElement("dt");
                 dt.textContent = key;
                 let dd = document.createElement("dd");
-                dd.textContent = ausschreibung.Optional[key];
+                dd.textContent = parsedData.optional[key];
                 optional.appendChild(dt);
                 optional.appendChild(dd);
             }
 
-            document.getElementById("webseite").setAttribute("href", ausschreibung.Webseite);
+            document.getElementById("webseite").setAttribute("href", parsedData.website);
         })
         .catch(error => console.error('Fehler beim Laden der Details:', error));
 }
