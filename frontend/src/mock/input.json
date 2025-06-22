@@ -1,0 +1,80 @@
+{
+  "ID": 1,
+  "Name": "Virtuelle Welten und digitale Lösungen für die Gesundheit",
+  "Themenbereich": "Digitale und Schlüsseltechnologien",
+  "Kurzbeschreibung": "Förderung kooperativer F&E-Projekte und Qualifizierungsnetzwerke im Bereich digitale Gesundheitslösungen.",
+  "Langbeschreibung": "Die Ausschreibung zielt darauf ab, digitale Technologien zur Verbesserung der Gesundheit zu fördern, insbesondere durch kooperative F&E-Projekte und Qualifizierungsnetzwerke.",
+  "Förderbetrag": "Bis zu 2.000.000 Euro für kooperative F&E-Projekte, bis zu 200.000 Euro für Qualifizierungsnetzwerke.",
+  "Bewerbungsfrist": {
+    "Von": "unbekannt",
+    "Bis": "27.03.2025"
+  },
+  "Regionen": [
+    "Österreich"
+  ],
+  "Zielgruppe": [
+    "Forschungseinrichtungen",
+    "Unternehmen",
+    "Startups"
+  ],
+  "Webseite": "http://www.ffg.at/virtuelle-Welten-Gesundheit-2024",
+  "Kontakt": [
+    {
+      "Ansprechpartner": "Peter Kerschl",
+      "E-Mail": "peter.kerschl@ffg.at",
+      "Telefon": "+43 57755-5022"
+    },
+    {
+      "Ansprechpartner": "Verena Mussnig",
+      "E-Mail": "verena.mussnig@ffg.at",
+      "Telefon": "+43 57755-5135"
+    },
+    {
+      "Ansprechpartner": "Gerda Geyer",
+      "E-Mail": "gerda.geyer@ffg.at",
+      "Telefon": "+43 57755-4205"
+    },
+    {
+      "Ansprechpartner": "Julia Neuschmid",
+      "E-Mail": "julia.neuschmid@ffg.at",
+      "Telefon": "+43 57755-5143"
+    },
+    {
+      "Ansprechpartner": "Sonja Gossar",
+      "E-Mail": "sonja.gossar@ffg.at",
+      "Telefon": "+43 57755-2312"
+    },
+    {
+      "Ansprechpartner": "Teresa Pflügl",
+      "E-Mail": "teresa.pfluegl@ffg.at",
+      "Telefon": "+43 57755-2303"
+    },
+    {
+      "Ansprechpartner": "Renata Egger",
+      "E-Mail": "renata.egger@ffg.at",
+      "Telefon": "+43 57755-2315"
+    },
+    {
+      "Ansprechpartner": "Alexander Glechner",
+      "E-Mail": "alexander.glechner@ffg.at",
+      "Telefon": "+43 57755-6082"
+    },
+    {
+      "Ansprechpartner": "Erwin Eckhart",
+      "E-Mail": "erwin.eckhart@ffg.at",
+      "Telefon": "+43 57755-6095"
+    }
+  ],
+  "Optional": {
+    "Status": "laufend",
+    "Häufigkeit": "laufend",
+    "Voraussetzungen": "Kooperation mit wissenschaftlichen Einrichtungen",
+    "Notwendige Dokumente": "Datenmanagementplan",
+    "Bewertungskriterien": "Innovationsgrad, gesellschaftlicher Nutzen, technische Durchführbarkeit",
+    "Bewerbungsplattform": "eCall FFG",
+    "Fördertyp": "Zuschuss",
+    "Förderdauer": "Maximal 36 Monate",
+    "Förderquote": "Bis zu 85%",
+    "Mögliche Aktivitäten": "Entwicklung digitaler Lösungen, Schulung von Fachpersonal"
+  }
+}

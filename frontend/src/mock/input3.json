@@ -1,0 +1,48 @@
+{
+  "ID": 3,
+  "Name": "Innovationswettbewerb für nachhaltige Landwirtschaftstechnologien",
+  "Themenbereich": "Agrarwissenschaften und nachhaltige Entwicklung",
+  "Kurzbeschreibung": "Förderung von Projekten zur Entwicklung innovativer und nachhaltiger Technologien im Bereich der Landwirtschaft.",
+  "Langbeschreibung": "Dieser Innovationswettbewerb unterstützt die Entwicklung von Technologien, die die Effizienz und Nachhaltigkeit in der Landwirtschaft verbessern. Besonders gesucht werden Lösungen, die den Ressourceneinsatz optimieren, die Umwelt schonen und die Resilienz gegenüber Klimawandel steigern.",
+  "Förderbetrag": "Bis zu 1.000.000 Euro für groß angelegte Projekte, bis zu 200.000 Euro für Pilotprojekte.",
+  "Bewerbungsfrist": {
+    "Von": "01.06.2025",
+    "Bis": "31.08.2025"
+  },
+  "Regionen": [
+    "Deutschland",
+    "Frankreich",
+    "Niederlande"
+  ],
+  "Zielgruppe": [
+    "Landwirtschaftliche Betriebe",
+    "Technologieunternehmen",
+    "Forschungseinrichtungen",
+    "Startups"
+  ],
+  "Webseite": "http://www.nachhaltige-landwirtschaft2025.de",
+  "Kontakt": [
+    {
+      "Ansprechpartner": "Dr. Susanne Müller",
+      "E-Mail": "susanne.mueller@nachhaltige-landwirtschaft2025.de",
+      "Telefon": "+49 123 456789"
+    },
+    {
+      "Ansprechpartner": "Jan Meier",
+      "E-Mail": "jan.meier@nachhaltige-landwirtschaft2025.de",
+      "Telefon": "+49 987 654321"
+    }
+  ],
+  "Optional": {
+    "Status": "offen",
+    "Häufigkeit": "jährlich",
+    "Voraussetzungen": "Kooperation mit mindestens einer landwirtschaftlichen Genossenschaft",
+    "Notwendige Dokumente": "Projektbeschreibung, Finanzplan, Nachhaltigkeitsanalyse",
+    "Bewertungskriterien": "Innovationsgrad, Nachhaltigkeit, praktische Anwendbarkeit, Skalierbarkeit",
+    "Bewerbungsplattform": "eAgrarPortal",
+    "Fördertyp": "Zuschuss",
+    "Förderdauer": "Maximal 36 Monate",
+    "Förderquote": "Bis zu 80%",
+    "Mögliche Aktivitäten": "Forschung und Entwicklung, Pilotversuche, Implementierung von Agrartechnologien"
+  }
+}

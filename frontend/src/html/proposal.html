@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Förderantrag - Antrag stellen</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/proposal.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">GrantScout</a>
+    </div>
+</nav>
+
+<div class="container">
+    <span style="font-size: 16px; color: grey; font-style: italic;">Förderantrag für das Projekt</span>
+    <h1 id="ausschreibungName"></h1>
+    <form>
+        <div class="form-section">
+            <h3>Allgemeine Informationen</h3>
+            <div class="mb-3">
+                <label class="form-label" for="name">Antragsteller Name</label>
+                <input class="form-control" id="name" placeholder="Name der Organisation/Unternehmen" required
+                       type="text">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="contactPerson">Kontaktperson</label>
+                <input class="form-control" id="contactPerson" placeholder="Name der Kontaktperson" required
+                       type="text">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="email">E-Mail</label>
+                <input class="form-control" id="email" placeholder="E-Mail-Adresse" required type="email">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="phone">Telefon</label>
+                <input class="form-control" id="phone" placeholder="Telefonnummer" required type="tel">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="address">Adresse</label>
+                <input class="form-control" id="address" placeholder="Straße, Stadt, PLZ" required type="text">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="website">Webseite</label>
+                <input class="form-control" id="website" placeholder="Website (optional)" type="url">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h3>Projektinformationen</h3>
+            <div class="mb-3">
+                <label class="form-label" for="projectTitle">Projekttitel</label>
+                <input class="form-control" id="projectTitle" placeholder="Titel des Projekts" required type="text">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="projectDescription">Projektbeschreibung</label>
+                <textarea class="form-control" id="projectDescription" placeholder="Beschreibung des Projekts" required
+                          rows="4"></textarea>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="startDate">Projektbeginn</label>
+                <input class="form-control" id="startDate" required type="date">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="endDate">Projektende</label>
+                <input class="form-control" id="endDate" required type="date">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="fundingAmount">Beantragter Förderbetrag</label>
+                <input class="form-control" id="fundingAmount" placeholder="Förderbetrag in Euro" required
+                       type="number">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="fundingPercentage">Förderquote</label>
+                <input class="form-control" id="fundingPercentage" placeholder="Förderquote (%)" required type="number">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h3>Finanzierungsplan</h3>
+            <div class="mb-3">
+                <label class="form-label" for="totalCost">Gesamtkosten des Projekts</label>
+                <input class="form-control" id="totalCost" placeholder="Gesamtkosten in Euro" required type="number">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="ownContribution">Eigenmittel</label>
+                <input class="form-control" id="ownContribution" placeholder="Eigenmittel in Euro" required
+                       type="number">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="thirdPartyFunding">Drittmittel / Co-Funding</label>
+                <input class="form-control" id="thirdPartyFunding" placeholder="Co-Funding in Euro" required
+                       type="number">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h3>Meilensteine und Zeitplan</h3>
+            <div class="mb-3">
+                <label class="form-label" for="milestones">Projektmeilensteine</label>
+                <textarea class="form-control" id="milestones" placeholder="Wichtige Meilensteine des Projekts" required
+                          rows="4"></textarea>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="timeline">Projektzeitrahmen</label>
+                <input class="form-control" id="timeline" placeholder="Geben Sie die Phasen und Zeitrahmen an"
+                       required type="text">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h3>Risikoanalyse</h3>
+            <div class="mb-3">
+                <label class="form-label" for="risks">Mögliche Risiken</label>
+                <textarea class="form-control" id="risks"
+                          placeholder="Identifizieren Sie Risiken und Strategien zur Risikominderung"
+                          rows="4"></textarea>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h3>Dokumente und Anhänge</h3>
+            <div class="mb-3">
+                <label class="form-label" for="documents">Projektplan und Budget</label>
+                <input class="form-control" id="documents" type="file">
+            </div>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Antrag einreichen</button>
+    </form>
+</div>
+
+<footer class="text-lg-start mt-4">
+    <div class="container p-3 text-center">
+        <img src="../favicon.ico" alt="GrantScout Logo" height="60">
+        <p class="mt-2 mb-0">&copy; 2025 GrantScout. Alle Rechte vorbehalten.</p>
+    </div>
+</footer>
+
+<script src="../js/proposal.js"></script>
+
+<script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

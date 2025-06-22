@@ -1,0 +1,48 @@
+{
+  "ID": 2,
+  "Name": "Nachhaltige Energielösungen für urbane Räume",
+  "Themenbereich": "Energie und Umwelttechnologien",
+  "Kurzbeschreibung": "Förderung von Innovationsprojekten zur Entwicklung nachhaltiger Energietechnologien für städtische Gebiete.",
+  "Langbeschreibung": "Die Ausschreibung unterstützt Projekte, die nachhaltige und effiziente Energielösungen für städtische Umgebungen entwickeln. Der Fokus liegt auf der Integration erneuerbarer Energien, der Optimierung des Energieverbrauchs und der Entwicklung intelligenter Energiemanagementsysteme.",
+  "Förderbetrag": "Bis zu 3.000.000 Euro für Großprojekte, bis zu 500.000 Euro für Pilotprojekte.",
+  "Bewerbungsfrist": {
+    "Von": "01.04.2025",
+    "Bis": "30.06.2025"
+  },
+  "Regionen": [
+    "Deutschland",
+    "Schweiz",
+    "Österreich"
+  ],
+  "Zielgruppe": [
+    "Technologieunternehmen",
+    "Startups",
+    "Forschungseinrichtungen",
+    "Kommunen"
+  ],
+  "Webseite": "http://www.energie-innovation2025.de",
+  "Kontakt": [
+    {
+      "Ansprechpartner": "Maximilian Weber",
+      "E-Mail": "maximilian.weber@energie-innovation2025.de",
+      "Telefon": "+49 123 456789"
+    },
+    {
+      "Ansprechpartner": "Claudia Müller",
+      "E-Mail": "claudia.mueller@energie-innovation2025.de",
+      "Telefon": "+49 987 654321"
+    }
+  ],
+  "Optional": {
+    "Status": "offen",
+    "Häufigkeit": "jährlich",
+    "Voraussetzungen": "Kooperation mit mindestens einer städtischen Verwaltungseinheit",
+    "Notwendige Dokumente": "Projektbeschreibung, Budgetplan, Zeitplan",
+    "Bewertungskriterien": "Innovation, Nachhaltigkeit, gesellschaftlicher Nutzen, Skalierbarkeit",
+    "Bewerbungsplattform": "eGovernment Portal",
+    "Fördertyp": "Zuschuss",
+    "Förderdauer": "Maximal 48 Monate",
+    "Förderquote": "Bis zu 75%",
+    "Mögliche Aktivitäten": "Forschung und Entwicklung, Prototypenbau, Testphase, Implementierung von Energiemanagementsystemen"
+  }
+}

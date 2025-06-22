@@ -1,0 +1,177 @@
+openapi: 3.0.1
+info:
+  title: GrantScout
+  version: "0.1"
+servers:
+  - url: http://localhost:8080
+paths:
+  /calls:
+    get:
+      summary: Get all calls
+      operationId: getAllCalls
+      responses:
+        "200":
+          description: A list of calls
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/CallSummary"
+
+  /calls/{call-id}:
+    get:
+      summary: Get a specific call by ID
+      operationId: getCallById
+      parameters:
+        - name: call-id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Call details
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CallDetails"
+        "404":
+          description: Call not found
+
+  /calls/{call-id}/proposals/{proposal-id}:
+    put:
+      summary: Update a proposal by ID
+      operationId: updateProposal
+      parameters:
+        - name: call-id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: proposal-id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Proposal"
+      responses:
+        "200":
+          description: Proposal updated
+        "400":
+          description: Invalid request
+        "404":
+          description: Proposal not found
+
+components:
+  schemas:
+    CallSummary:
+      type: object
+      properties:
+        name:
+          type: string
+        themenbereich:
+          type: string
+        kurzbeschreibung:
+          type: string
+        foerderbetrag:
+          type: string
+        bewerbungsfrist:
+          type: string
+          format: date
+
+    CallDetails:
+      allOf:
+        - $ref: "#/components/schemas/CallSummary"
+        - type: object
+          properties:
+            langbeschreibung:
+              type: string
+            regionen:
+              type: array
+              items:
+                type: string
+            zielgruppe:
+              type: array
+              items:
+                type: string
+            webseite:
+              type: string
+              format: uri
+            kontakt:
+              type: object
+              properties:
+                personen:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      mail:
+                        type: string
+                        format: mail
+                      telefon:
+                        type: string
+                        format: phone
+            optionaleInformationen:
+              type: array
+              items:
+                type: object
+                properties:
+                  key:
+                    type: string
+                  value:
+                    type: string
+
+    Proposal:
+      type: object
+      properties:
+        antragsteller:
+          type: string
+        kontaktperson:
+          type: string
+        mail:
+          type: string
+          format: mail
+        telefon:
+          type: string
+          format: phone
+        adresse:
+          type: string
+        webseite:
+          type: string
+          format: url
+        projekttitel:
+          type: string
+        projektbeschreibung:
+          type: string
+        projektbeginn:
+          type: string
+          format: date
+        projektende:
+          type: string
+          format: date
+        beantragterFoerderbetrag:
+          type: number
+        foederquote:
+          type: number
+        gesamtkosten:
+          type: number
+        eigenmittel:
+          type: number
+        drittmittel:
+          type: number
+        meilensteine:
+          type: string
+        zeitrahmen:
+          type: string
+        risiken:
+          type: string
+        projektplan:
+          type: object
