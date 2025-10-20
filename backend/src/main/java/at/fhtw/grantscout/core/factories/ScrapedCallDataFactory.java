@@ -1,7 +1,6 @@
 package at.fhtw.grantscout.core.factories;
 
-import at.fhtw.grantscout.core.domain.data.CallData;
-import at.fhtw.grantscout.core.domain.data.ScrapedCallData;
+import at.fhtw.grantscout.core.domain.data.call.ScrapedCallData;
 import at.fhtw.grantscout.out.persistence.entities.ScrapedCall;
 import org.springframework.stereotype.Component;
 

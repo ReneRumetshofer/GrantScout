@@ -40,7 +40,7 @@ dependencies {
     implementation("org.flywaydb:flyway-database-postgresql:11.1.0")
     runtimeOnly("org.postgresql:postgresql:42.7.4")
 
-    implementation("com.openai:openai-java:2.3.1")
+    implementation("com.openai:openai-java:4.5.0")
 }
 
 buildscript {

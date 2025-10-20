@@ -1,6 +1,6 @@
 package at.fhtw.grantscout.core;
 
-import at.fhtw.grantscout.core.domain.data.ParsingResult;
+import at.fhtw.grantscout.core.domain.data.call.ParsingResult;
 import at.fhtw.grantscout.core.domain.enums.CallStatus;
 import at.fhtw.grantscout.out.parsing.Parser;
 import at.fhtw.grantscout.out.persistence.entities.ParsedCall;

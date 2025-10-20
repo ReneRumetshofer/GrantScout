@@ -1,7 +1,7 @@
 package at.fhtw.grantscout.core;
 
-import at.fhtw.grantscout.core.domain.data.ParsedCallData;
-import at.fhtw.grantscout.core.domain.data.ScrapedCallData;
+import at.fhtw.grantscout.core.domain.data.call.ParsedCallData;
+import at.fhtw.grantscout.core.domain.data.call.ScrapedCallData;
 import at.fhtw.grantscout.core.domain.enums.CallStatus;
 import at.fhtw.grantscout.core.factories.ParsedDataFactory;
 import at.fhtw.grantscout.core.factories.ScrapedCallDataFactory;

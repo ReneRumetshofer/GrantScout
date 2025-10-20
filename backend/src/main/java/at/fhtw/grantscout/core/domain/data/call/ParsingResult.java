@@ -1,4 +1,4 @@
-package at.fhtw.grantscout.core.domain.data;
+package at.fhtw.grantscout.core.domain.data.call;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

@@ -13,5 +13,7 @@ logging:
 scraping:
   interval_minutes: 60
 
-openai:
-  key: ${OPENAI_API_KEY}
+app:
+  openai:
+    apiKey: ${OPENAI_API_KEY}
+    model: gpt-4.1-mini

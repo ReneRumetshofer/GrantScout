@@ -1,6 +1,6 @@
 package at.fhtw.grantscout.out.parsing;
 
-import at.fhtw.grantscout.core.domain.data.ParsingResult;
+import at.fhtw.grantscout.core.domain.data.call.ParsingResult;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
@@ -17,7 +17,7 @@ public class Parser {
 
     private final Logger logger = LoggerFactory.getLogger(Parser.class);
 
-    @Value("${openai.key}")
+    @Value("${app.openai.apiKey}")
     private String openApiKey;
 
     private static final String systemPrompt = "You are a helpful assistant for standardizing information in grant calls published by grant givers. Your job is to convert raw information into standardized JSON.";

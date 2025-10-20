@@ -1,0 +1,14 @@
+:root { --bg:#0b141a; --fg:#e8f0f7; --muted:#9fb3c8; --acc:#47c07d; }
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,Segoe UI,Roboto}
+.wrap{max-width:820px;margin:auto;padding:24px}
+h1{font-size:20px;margin:0 0 16px}
+#log{background:#0f1c25;border:1px solid #132535;border-radius:14px;padding:16px;height:60vh;overflow:auto}
+.msg{margin:10px 0;display:flex;gap:10px}
+.role{font-weight:600;min-width:92px;color:var(--muted)}
+.user .role{color:var(--acc)}
+.bubble{white-space:pre-wrap}
+form{display:flex;gap:8px;margin-top:12px}
+input,button{border-radius:12px;border:1px solid #2a3b4b;padding:12px;background:#0f1c25;color:var(--fg)}
+input{flex:1}
+button{background:var(--acc);color:#03160c;border:none;cursor:pointer;font-weight:700}
+button:disabled{opacity:.6;cursor:not-allowed}

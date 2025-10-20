@@ -1,7 +1,7 @@
 package at.fhtw.grantscout.core.factories;
 
-import at.fhtw.grantscout.core.domain.data.ParsedCallData;
-import at.fhtw.grantscout.core.domain.data.ParsingResult;
+import at.fhtw.grantscout.core.domain.data.call.ParsedCallData;
+import at.fhtw.grantscout.core.domain.data.call.ParsingResult;
 import at.fhtw.grantscout.out.persistence.entities.ParsedCall;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

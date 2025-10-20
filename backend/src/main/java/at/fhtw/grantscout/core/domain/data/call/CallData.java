@@ -1,4 +1,4 @@
-package at.fhtw.grantscout.core.domain.data;
+package at.fhtw.grantscout.core.domain.data.call;
 
 import at.fhtw.grantscout.core.domain.enums.CallStatus;
 import at.fhtw.grantscout.core.domain.enums.Institute;
