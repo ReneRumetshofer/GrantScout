@@ -144,6 +144,22 @@ form.addEventListener('submit', async (e) => {
 // New chat button handler
 newChatBtn.addEventListener('click', createNewConversation);
 
+// Check for initial message from details page
+async function checkAndSendInitialMessage() {
+    const initialMessage = sessionStorage.getItem('initialChatMessage');
+    if (initialMessage) {
+        // Clear the stored message
+        sessionStorage.removeItem('initialChatMessage');
+        
+        // Create a new conversation and send the initial message
+        await createNewConversation();
+        await sendMessage(initialMessage);
+    }
+}
+
 // Load conversations on page load
 loadConversations();
+
+// Check for and send initial message if present
+checkAndSendInitialMessage();
 

@@ -1,6 +1,8 @@
 const params = new URLSearchParams(window.location.search);
 const id = params.get('id');
 
+let currentAusschreibung = null;
+
 if (!id) {
     console.error('Keine ID in der URL angegeben.');
 } else {
@@ -19,6 +21,7 @@ if (!id) {
             }
 
             let parsedData = ausschreibung.parsedData
+            currentAusschreibung = parsedData;
 
             document.getElementById("ausschreibungName").textContent = parsedData.name;
             document.getElementById("themenbereich").textContent = parsedData.topic;
@@ -61,6 +64,56 @@ if (!id) {
             }
 
             document.getElementById("webseite").setAttribute("href", parsedData.website);
+            
+            // Enable the start chat button
+            setupStartChatButton();
         })
         .catch(error => console.error('Fehler beim Laden der Details:', error));
+}
+
+function setupStartChatButton() {
+    const startChatBtn = document.getElementById('startChatBtn');
+    if (!startChatBtn || !currentAusschreibung) return;
+    
+    startChatBtn.addEventListener('click', () => {
+        // Format the grant call information for the initial message
+        const grantCallInfo = formatGrantCallInfo(currentAusschreibung);
+        
+        // Store the initial message in sessionStorage
+        sessionStorage.setItem('initialChatMessage', grantCallInfo);
+        
+        // Navigate to chat page
+        window.location.href = 'chat.html';
+    });
+}
+
+function formatGrantCallInfo(parsedData) {
+    let info = `Bitte starte den Antrags-Flow für die folgende Ausschreibung:\n\n`;
+    info += `**Name:** ${parsedData.name}\n\n`;
+    info += `**Themenbereich:** ${parsedData.topic}\n\n`;
+    info += `**Kurzbeschreibung:** ${parsedData.shortDescription}\n\n`;
+    info += `**Langbeschreibung:** ${parsedData.longDescription}\n\n`;
+    info += `**Förderbetrag:** ${parsedData.grantCallSum}\n\n`;
+    info += `**Bewerbungsfrist:** ${parsedData.applicationDeadlines.from} bis ${parsedData.applicationDeadlines.to}\n\n`;
+    info += `**Regionen:** ${parsedData.regions}\n\n`;
+    info += `**Zielgruppe:** ${parsedData.targetGroup}\n\n`;
+    
+    if (parsedData.contact && parsedData.contact.length > 0) {
+        info += `**Kontakt:**\n`;
+        parsedData.contact.forEach(contact => {
+            info += `- ${contact.contactPerson}: ${contact.email}, Tel: ${contact.telephone}\n`;
+        });
+        info += `\n`;
+    }
+    
+    info += `**Webseite:** ${parsedData.website}\n\n`;
+    
+    if (parsedData.optional && Object.keys(parsedData.optional).length > 0) {
+        info += `**Optionale Informationen:**\n`;
+        for (const key in parsedData.optional) {
+            info += `- ${key}: ${parsedData.optional[key]}\n`;
+        }
+    }
+    
+    return info;
 }
