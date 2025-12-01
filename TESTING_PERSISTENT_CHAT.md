@@ -14,6 +14,7 @@ This document describes how to test the newly implemented persistent chat featur
 ### 1. Database Migration
 
 The new migration file `V4__create_chat_tables.sql` will run automatically when you start the backend application. It creates:
+
 - `chat_conversation` table (stores conversations with timestamps)
 - `chat_message` table (stores individual messages)
 - Necessary indexes for performance
@@ -59,12 +60,14 @@ Then navigate to `http://localhost:3000/html/chat.html`.
 You can test the backend endpoints using curl:
 
 1. **Create a new conversation:**
+
 ```bash
 curl -X POST http://localhost:8080/chat/new
 # Expected response: {"conversationId": 1}
 ```
 
 2. **Send a message:**
+
 ```bash
 curl -X POST http://localhost:8080/chat \
   -H "Content-Type: application/json" \
@@ -73,12 +76,14 @@ curl -X POST http://localhost:8080/chat \
 ```
 
 3. **List all conversations:**
+
 ```bash
 curl http://localhost:8080/chat
 # Expected response: [{"id": 1, "updatedAt": "2025-12-01T..."}]
 ```
 
 4. **Get messages from a conversation:**
+
 ```bash
 curl http://localhost:8080/chat/1/messages
 # Expected response: [{"role": "user", "content": "...", "createdAt": "..."}, ...]
@@ -87,11 +92,13 @@ curl http://localhost:8080/chat/1/messages
 ### Frontend UI Tests
 
 1. **Initial Load:**
+
    - Open `http://localhost:3000/html/chat.html`
    - The chat list on the left should be empty (if first time)
    - Chat area should be empty
 
 2. **First Message (Auto-create conversation):**
+
    - Type a message in the input field
    - Click "Senden" button
    - A new conversation should be created automatically
@@ -100,11 +107,13 @@ curl http://localhost:8080/chat/1/messages
    - Chat list on the left shows the new conversation with timestamp
 
 3. **Continue Existing Chat:**
+
    - Send another message
    - Both messages should appear in the chat log
    - Timestamp in the chat list should update
 
 4. **New Chat Button:**
+
    - Click "+ Neuer Chat" button
    - Chat log should clear
    - A new empty conversation is created
@@ -112,6 +121,7 @@ curl http://localhost:8080/chat/1/messages
    - Both conversations should now appear in the list
 
 5. **Switch Between Chats:**
+
    - Click on a conversation in the left sidebar
    - Chat log should load all messages from that conversation
    - The selected conversation should be highlighted
@@ -119,6 +129,7 @@ curl http://localhost:8080/chat/1/messages
    - Timestamp should update
 
 6. **Timestamp Display:**
+
    - Check that timestamps show as:
      - "Gerade eben" for messages just sent
      - "vor X Min." for recent messages
@@ -127,6 +138,7 @@ curl http://localhost:8080/chat/1/messages
      - Date format (DD.MM.YYYY) for older messages
 
 7. **Multiple Conversations:**
+
    - Create 3-4 different conversations
    - Verify they all appear in the list sorted by most recent
    - Verify you can switch between them and see correct messages
@@ -141,6 +153,7 @@ curl http://localhost:8080/chat/1/messages
 ## Expected Behavior
 
 ### ChatGPT-like Interface:
+
 - ✅ Left sidebar with list of conversations
 - ✅ Each conversation shows timestamp of last message
 - ✅ Click on conversation to load and continue it
@@ -148,12 +161,14 @@ curl http://localhost:8080/chat/1/messages
 - ✅ Active conversation highlighted in list
 
 ### Database Persistence:
+
 - ✅ All conversations saved to database
 - ✅ All messages saved to database
 - ✅ Conversations survive page refresh
 - ✅ Conversations sorted by most recent update
 
 ### API Changes:
+
 - ✅ Frontend sends only new message (not full history)
 - ✅ Backend loads history from database
 - ✅ Backend saves both user and assistant messages
@@ -162,24 +177,29 @@ curl http://localhost:8080/chat/1/messages
 ## Common Issues and Solutions
 
 ### Issue: "Conversation not found" error
+
 - **Cause:** Trying to send message to non-existent conversation
 - **Solution:** Frontend should auto-create conversation if none exists
 
 ### Issue: Empty chat list after refresh
+
 - **Cause:** Database not running or connection issue
 - **Solution:** Check database is running and connection string is correct
 
 ### Issue: Messages not persisting
+
 - **Cause:** Migration not run or transaction not committed
 - **Solution:** Check backend logs for migration status
 
 ### Issue: CORS errors in browser console
+
 - **Cause:** Frontend and backend on different origins
 - **Solution:** WebConfig already allows all origins, verify backend is running
 
 ## Files Changed
 
 ### Backend:
+
 - `backend/src/main/resources/db/migration/V4__create_chat_tables.sql` - New migration
 - `backend/src/main/java/at/fhtw/grantscout/out/persistence/entities/ChatConversation.java` - New entity
 - `backend/src/main/java/at/fhtw/grantscout/out/persistence/entities/ChatMessage.java` - New entity
@@ -193,6 +213,7 @@ curl http://localhost:8080/chat/1/messages
 - `backend/src/main/resources/application.yaml` - Added JPA configuration
 
 ### Frontend:
+
 - `frontend/src/html/chat.html` - Updated layout with sidebar
 - `frontend/src/css/chat.css` - Updated styles for new layout
 - `frontend/src/js/chat.js` - New file with persistent chat logic
@@ -200,6 +221,7 @@ curl http://localhost:8080/chat/1/messages
 ## Success Criteria
 
 The feature is working correctly if:
+
 1. ✅ Conversations are saved to database and persist across page refreshes
 2. ✅ Chat list shows all conversations sorted by most recent
 3. ✅ Can create new conversations and continue existing ones
@@ -212,9 +234,9 @@ The feature is working correctly if:
 ## Next Steps
 
 After successful testing, consider:
+
 - Adding conversation titles (auto-generated from first message)
 - Adding delete conversation functionality
 - Adding edit/regenerate message features
 - Adding conversation search/filter
 - Adding pagination for large conversation lists
-

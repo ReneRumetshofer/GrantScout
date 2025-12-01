@@ -35,8 +35,14 @@ public class FFGCallSearch implements ForCallSearch {
             if (resultCount % 10 != 0) {
                 pageCount++;
             }
+            logger.debug("FFG: {} pages found", pageCount);
             List<String> callLinks = new ArrayList<>();
             for (int i = 0; i < pageCount; i++) {
+                if (i == 3) {
+                    logger.debug("FFG: Stopping after 3 pages for testing purposes");
+                    break;
+                }
+
                 logger.debug("FFG Search - page {}", i + 1);
                 String pageUrl = url + "&page=" + i;
                 page.navigate(pageUrl);

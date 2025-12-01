@@ -9,6 +9,7 @@ import at.fhtw.grantscout.out.persistence.entities.ScrapedCall;
 import at.fhtw.grantscout.out.persistence.repositories.CallRepository;
 import at.fhtw.grantscout.out.persistence.repositories.ScrapedCallRepository;
 import at.fhtw.grantscout.out.scraping.eu.EUContentScraper;
+import at.fhtw.grantscout.out.scraping.ffg.FFGContentScraper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationEventPublisher;
@@ -23,13 +24,15 @@ public class ScrapeUseCase {
     private final Logger logger = LoggerFactory.getLogger(ScrapeUseCase.class);
 
     private final EUContentScraper euContentScraper;
+    private final FFGContentScraper ffgContentScraper;
 
     private final CallRepository callRepository;
     private final ScrapedCallRepository scrapedCallRepository;
     private final ApplicationEventPublisher eventPublisher;
 
-    public ScrapeUseCase(EUContentScraper euContentScraper, CallRepository callRepository, ScrapedCallRepository scrapedCallRepository, ApplicationEventPublisher eventPublisher) {
+    public ScrapeUseCase(EUContentScraper euContentScraper, FFGContentScraper ffgContentScraper, CallRepository callRepository, ScrapedCallRepository scrapedCallRepository, ApplicationEventPublisher eventPublisher) {
         this.euContentScraper = euContentScraper;
+        this.ffgContentScraper = ffgContentScraper;
         this.callRepository = callRepository;
         this.scrapedCallRepository = scrapedCallRepository;
         this.eventPublisher = eventPublisher;
@@ -74,7 +77,7 @@ public class ScrapeUseCase {
     private ForContentScraping getScraperByInstitute(Institute institute) {
         return switch(institute) {
             case EU -> euContentScraper;
-            case FFG -> null; // TODO: Implement FFG scraper in this architecture
+            case FFG -> ffgContentScraper;
         };
     }
 

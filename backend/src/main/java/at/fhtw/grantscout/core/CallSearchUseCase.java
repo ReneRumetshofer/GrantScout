@@ -2,7 +2,6 @@ package at.fhtw.grantscout.core;
 
 import at.fhtw.grantscout.core.domain.enums.CallStatus;
 import at.fhtw.grantscout.core.domain.enums.Institute;
-import at.fhtw.grantscout.core.ports.out.ForCallSearch;
 import at.fhtw.grantscout.out.persistence.entities.Call;
 import at.fhtw.grantscout.out.persistence.repositories.CallRepository;
 import at.fhtw.grantscout.out.search.eu.EUCallSearch;
@@ -26,8 +25,8 @@ public class CallSearchUseCase {
     private Logger logger = LoggerFactory.getLogger(CallSearchUseCase.class);
 
     private static List<Institute> activeInstitutes = List.of(
-//            Institute.FFG
-            Institute.EU
+            Institute.FFG
+//            Institute.EU
     );
 
     public CallSearchUseCase(FFGCallSearch ffgCallSearch, EUCallSearch euCallSearch, CallRepository callRepository, ScrapeUseCase scrapeUseCase) {
