@@ -4,7 +4,7 @@ const id = params.get('id');
 if (!id) {
     console.error('Keine ID in der URL angegeben.');
 } else {
-    fetch("https://localhost/api/calls?type=PARSED")
+    fetch("http://localhost:8080/calls?type=PARSED")
         .then(response => response.json())
         .then(data => {
             const ausschreibungen = data.flat();

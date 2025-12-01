@@ -1,8 +1,80 @@
 :root { --bg:#0b141a; --fg:#e8f0f7; --muted:#9fb3c8; --acc:#47c07d; }
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,Segoe UI,Roboto}
-.wrap{max-width:820px;margin:auto;padding:24px}
+
+/* Chat container layout */
+.chat-container {
+    display: flex;
+    height: calc(100vh - 56px); /* Full height minus navbar */
+}
+
+/* Sidebar styles */
+.chat-sidebar {
+    width: 280px;
+    background: #0f1c25;
+    border-right: 1px solid #132535;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.sidebar-header {
+    padding: 16px;
+    border-bottom: 1px solid #132535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidebar-header h2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+#new-chat-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    white-space: nowrap;
+}
+
+.chat-list {
+    overflow-y: auto;
+    flex: 1;
+}
+
+.chat-list-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #132535;
+    transition: background 0.2s;
+}
+
+.chat-list-item:hover {
+    background: #132535;
+}
+
+.chat-list-item.active {
+    background: #1a2f3f;
+    border-left: 3px solid var(--acc);
+}
+
+.chat-list-item-time {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+/* Main chat area */
+.chat-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.wrap{max-width:820px;margin:auto;padding:24px;display:flex;flex-direction:column;height:100%;}
 h1{font-size:20px;margin:0 0 16px}
-#log{background:#0f1c25;border:1px solid #132535;border-radius:14px;padding:16px;height:60vh;overflow:auto}
+#log{background:#0f1c25;border:1px solid #132535;border-radius:14px;padding:16px;flex:1;overflow:auto;min-height:0;}
 .msg{margin:10px 0;display:flex;gap:10px}
 .role{font-weight:600;min-width:92px;color:var(--muted)}
 .user .role{color:var(--acc)}
@@ -12,3 +84,18 @@ input,button{border-radius:12px;border:1px solid #2a3b4b;padding:12px;background
 input{flex:1}
 button{background:var(--acc);color:#03160c;border:none;cursor:pointer;font-weight:700}
 button:disabled{opacity:.6;cursor:not-allowed}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .chat-sidebar {
+        position: absolute;
+        left: -280px;
+        height: 100%;
+        z-index: 1000;
+        transition: left 0.3s;
+    }
+    
+    .chat-sidebar.open {
+        left: 0;
+    }
+}

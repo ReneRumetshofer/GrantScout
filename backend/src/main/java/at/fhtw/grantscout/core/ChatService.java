@@ -1,12 +1,16 @@
 package at.fhtw.grantscout.core;
 
-import at.fhtw.grantscout.core.domain.data.chat.Message;
+import at.fhtw.grantscout.out.persistence.entities.ChatConversation;
+import at.fhtw.grantscout.out.persistence.entities.ChatMessage;
+import at.fhtw.grantscout.out.persistence.repositories.ChatConversationRepository;
+import at.fhtw.grantscout.out.persistence.repositories.ChatMessageRepository;
 import com.openai.client.OpenAIClient;
 import com.openai.models.ChatModel;
 import com.openai.models.chat.completions.ChatCompletion;
 import com.openai.models.chat.completions.ChatCompletionCreateParams;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -14,15 +18,35 @@ import java.util.List;
 public class ChatService {
     private final OpenAIClient client;
     private final ChatModel model;
+    private final ChatConversationRepository conversationRepository;
+    private final ChatMessageRepository messageRepository;
 
 
-    public ChatService(OpenAIClient client, @Value("${app.openai.model}") String modelName) {
+    public ChatService(OpenAIClient client, 
+                       @Value("${app.openai.model}") String modelName,
+                       ChatConversationRepository conversationRepository,
+                       ChatMessageRepository messageRepository) {
         this.client = client;
         this.model = ChatModel.of(modelName);
+        this.conversationRepository = conversationRepository;
+        this.messageRepository = messageRepository;
     }
 
 
-    public String chat(List<Message> history, String userMessage) {
+    @Transactional
+    public String chat(Long conversationId, String userMessage) {
+        ChatConversation conversation = conversationRepository.findById(conversationId)
+                .orElseThrow(() -> new IllegalArgumentException("Conversation not found: " + conversationId));
+
+        List<ChatMessage> existingMessages = messageRepository.findByConversationIdOrderByCreatedAtAsc(conversationId);
+
+        ChatMessage userMsg = ChatMessage.builder()
+                .conversation(conversation)
+                .role("user")
+                .content(userMessage)
+                .build();
+        messageRepository.save(userMsg);
+
         ChatCompletionCreateParams.Builder builder = ChatCompletionCreateParams.builder()
                 .model(model)
                 .temperature(0.2)
@@ -33,7 +57,7 @@ public class ChatService {
                         "\n" +
                         "SPRACHE UND STIL\n" +
                         "\n" +
-                        "- Kommuniziere auf Deutsch, duzen ist ok („du“).\n" +
+                        "- Kommuniziere auf Deutsch, duzen ist ok (du).\n" +
                         "- Schreibe verständlich, präzise und förderlogisch.\n" +
                         "- Fasse bei Freitextfeldern die Antworten der Nutzer:in gut lesbar und strukturiert zusammen.\n" +
                         "\n" +
@@ -86,7 +110,7 @@ public class ChatService {
                         "2. Antragsteller:in (Institution / FH-Erhalter:in)\n" +
                         "3. Studiengang / Studiengänge\n" +
                         "4. Projektkosten (Gesamtkosten in Euro)\n" +
-                        "5. Beantragte maximale Fördersumme (Euro) + Frage: „Vorsteuerabzugsberechtigt? (Ja/Nein)“\n" +
+                        "5. Beantragte maximale Fördersumme (Euro) + Frage: „Vorsteuerabzugsberechtigt? (Ja/Nein)\"\n" +
                         "6. Laufzeit (Projektbeginn & Projektende)\n" +
                         "7. Ansprechpartner:in (Name, Fax optional, E-Mail)\n" +
                         "8. Schlagworte\n" +
@@ -100,7 +124,7 @@ public class ChatService {
                         "\n" +
                         "B) Kooperationspartner-Stammdatenblatt (F2)\n" +
                         "\n" +
-                        "Frage: „Gibt es Kooperationspartner:innen? (Ja/Nein)“\n" +
+                        "Frage: \"Gibt es Kooperationspartner:innen? (Ja/Nein)\"\n" +
                         "\n" +
                         "Falls Ja, pro Partner:\n" +
                         "\n" +
@@ -214,29 +238,42 @@ public class ChatService {
                         "\n" +
                         "Wenn alle Fragen beantwortet sind:\n" +
                         "\n" +
-                        "1. Ausgabe: „Rohfassung Förderantrag - [gewählter Antragstyp]“\n" +
+                        "1. Ausgabe: „Rohfassung Förderantrag - [gewählter Antragstyp]\"\n" +
                         "2. Vollständige, sauber strukturierte Darstellung in den Originalabschnitten\n" +
                         "3. Wichtige Hinweise & Checkliste\n" +
                         "4. Fehlende Infos + konkrete Verbesserungen nennen");
 
-
-        if (history != null) {
-            for (Message m : history) {
-                if (m.role().equals("assistant")) {
-                    builder.addAssistantMessage(m.content());
-                } else {
-                    builder.addUserMessage(m.content());
-                }
+        for (ChatMessage m : existingMessages) {
+            if (m.getRole().equals("assistant")) {
+                builder.addAssistantMessage(m.getContent());
+            } else {
+                builder.addUserMessage(m.getContent());
             }
         }
 
-
         builder.addUserMessage(userMessage);
 
-
         ChatCompletion completion = client.chat().completions().create(builder.build());
-        return completion.choices().isEmpty()
+        String reply = completion.choices().isEmpty()
                 ? "(keine Antwort erhalten)"
                 : completion.choices().getFirst().message().content().orElse("");
+
+        ChatMessage assistantMsg = ChatMessage.builder()
+                .conversation(conversation)
+                .role("assistant")
+                .content(reply)
+                .build();
+        messageRepository.save(assistantMsg);
+
+        conversationRepository.save(conversation);
+
+        return reply;
+    }
+
+    @Transactional
+    public Long createNewConversation() {
+        ChatConversation conversation = new ChatConversation();
+        conversation = conversationRepository.save(conversation);
+        return conversation.getId();
     }
 }

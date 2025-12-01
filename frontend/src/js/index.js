@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Fehler beim Laden der Daten:", error));*/
 
-    fetch("https://localhost/api/calls?type=PARSED")
+    fetch("http://localhost:8080/calls?type=PARSED")
         .then(res => res.json())
         .then(json => {
             data.push(...json.flat())
