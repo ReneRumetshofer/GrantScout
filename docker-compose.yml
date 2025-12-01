@@ -13,36 +13,36 @@ services:
     networks:
       - backend
 
-  backend:
-    container_name: backend
-    build:
-      context: ./backend
-    environment:
-      DB_HOST: ${DB_HOST}
-      DB_PORT: ${DB_PORT}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_NAME: ${DB_NAME}
-      OPENAI_API_KEY: ${OPENAI_API_KEY}
-    ports:
-      - "8080:8080"
-    depends_on:
-      - postgres
-    networks:
-      - backend
-
-  frontend:
-    container_name: frontend
-    build:
-      context: ./frontend
-    ports:
-      - "80:80"
-      - "443:443"
-    depends_on:
-      - postgres
-      - backend
-    networks:
-      - backend
+#  backend:
+#    container_name: backend
+#    build:
+#      context: ./backend
+#    environment:
+#      DB_HOST: ${DB_HOST}
+#      DB_PORT: ${DB_PORT}
+#      DB_USER: ${DB_USER}
+#      DB_PASSWORD: ${DB_PASSWORD}
+#      DB_NAME: ${DB_NAME}
+#      OPENAI_API_KEY: ${OPENAI_API_KEY}
+#    ports:
+#      - "8080:8080"
+#    depends_on:
+#      - postgres
+#    networks:
+#      - backend
+#
+#  frontend:
+#    container_name: frontend
+#    build:
+#      context: ./frontend
+#    ports:
+#      - "80:80"
+#      - "443:443"
+#    depends_on:
+#      - postgres
+#      - backend
+#    networks:
+#      - backend
 
 networks:
   backend:
